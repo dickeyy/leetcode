@@ -1,13 +1,14 @@
-# LeetCode problems I've solved - Total: 17
-
-I have only been doing LeetCode for a little so don't judge 
+# [Leetcode Solutions - Total: 17](https://leetcode.com/dickey)
+Rank: ~2,641,141 (last updated: 12/4/23)
 
 ## Hard Problems - 0/650
+Beats: N/A users
 
 | Name | Difficulty | Language | Solution |
 | ----------- | ----------- | ----------- | ----------- |
 
 ## Medium Problems - 2/1555
+Beats: N/A users
 
 | Name | Difficulty | Language | Solution |
 | ----------- | ----------- | ----------- | ----------- |
@@ -15,6 +16,7 @@ I have only been doing LeetCode for a little so don't judge
 | 176. Second Highest Salary | Medium | SQL | [Solution](/medium/176-second-highest-salary.sql) |
 
 ## Easy Problems - 15/749
+Beats: 43.5% of users
 
 | Name | Difficulty | Language | Solution |
 | ----------- | ----------- | ----------- | ----------- |
