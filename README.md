@@ -1,4 +1,4 @@
-# These are all the LeetCode problems I have solved. Total: 17
+# LeetCode problems I've solved - Total: 17
 
 I have only been doing LeetCode for a little so don't judge 
 
