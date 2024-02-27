@@ -1,15 +1,16 @@
-# [Leetcode Solutions - Total: 20](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 22](https://leetcode.com/dickey)
 
-Rank: ~2,089,985 (last updated: 12/12/23)
+Rank: ~2,198,025 (last updated: 2/27/24)
 
-## Hard Problems - 0/650
+## Hard Problems - 1/679
 
 Beats: N/A users
 
-| Name | Difficulty | Language | Solution |
-| ---- | ---------- | -------- | -------- |
+| Name           | Difficulty | Language | Solution                           |
+| -------------- | ---------- | -------- | ---------------------------------- |
+| 458. Poor Pigs | Hard       | TS       | [Solution](/hard/458-poor-pigs.ts) |
 
-## Medium Problems - 2/1555
+## Medium Problems - 2/1606
 
 Beats: N/A users
 
@@ -18,9 +19,9 @@ Beats: N/A users
 | 2. Add Two Numbers         | Medium     | JS       | [Solution](/medium/2-add-two-numbers.js)          |
 | 176. Second Highest Salary | Medium     | SQL      | [Solution](/medium/176-second-highest-salary.sql) |
 
-## Easy Problems - 18/749
+## Easy Problems - 19/775
 
-Beats: 49.1% of users
+Beats: 50.9% of users
 
 | Name                                              | Difficulty | Language | Solution                                                              |
 | ------------------------------------------------- | ---------- | -------- | --------------------------------------------------------------------- |
@@ -33,6 +34,7 @@ Beats: 49.1% of users
 | 66. Plus One                                      | Easy       | JS       | [Solution](/easy/66-plus-one.js)                                      |
 | 217. Contains Duplicate                           | Easy       | JS       | [Solution](/easy/217-contains-duplicate.js)                           |
 | 283. Move Zeros                                   | Easy       | JS       | [Solution](/easy/283-move-zeroes.js)                                  |
+| 412. FizzBuzz                                     | Easy       | TS       | [Solution](/easy/412-fizzbuzz.ts)                                     |
 | 1688. Number of Matches                           | Easy       | TS       | [Solution](/easy/1688-number-of-matches.ts)                           |
 | 1464. Maximum Product of Two Elements in an Array | Easy       | TS       | [Solution](/easy/1464-maximum-product-of-two-elements-in-an-array.ts) |
 | 1716. Calculate Money in Leetcode Bank            | Easy       | TS       | [Solution](/easy/1716-calculate-money-in-leetcode-bank.ts)            |
