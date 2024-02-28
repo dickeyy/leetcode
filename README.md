@@ -1,8 +1,17 @@
-# [Leetcode Solutions](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 24](https://leetcode.com/dickey)
 
 ## Stats
 
-[![dickey's LeetCode Stats](https://leetcode-stats.vercel.app/api?username=dickey&theme=Dark)](https://github.com/JeremyTsaii/leetcode-stats)
+_Last Updated 2/28/24_
+
+```
+- Total Solved: 24/3064 (0.78%)
+- Easy Solved: 19/776 (2.45%)
+- Medium Solved: 4/1608 (0.25%)
+- Hard Solved: 1/680 (0.15%)
+- Rank: 2,095,803
+- Acceptance Rate: 47.46%
+```
 
 ## Hard Problems - 1/680
 
