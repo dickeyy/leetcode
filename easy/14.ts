@@ -1,15 +1,14 @@
 /*
-*   Stats:
-*   Runtime: 63ms (beats 36.93% of TS solutions)
-*   Memory: 42.98mb (beats 98.10% of TS solutions)
-*/
+ *   Stats:
+ *   Runtime: 63ms (beats 36.93% of TS solutions)
+ *   Memory: 42.98mb (beats 98.10% of TS solutions)
+ */
 
 function longestCommonPrefix(strs: string[]): string {
-    
     let prefix = "";
 
-    for (let i=0; i<strs.length; i++) {
-        if (strs[i].length === 0) return prefix="";
+    for (let i = 0; i < strs.length; i++) {
+        if (strs[i].length === 0) return (prefix = "");
         if (i === 0) {
             prefix = strs[i];
         } else {
@@ -27,8 +26,7 @@ function longestCommonPrefix(strs: string[]): string {
         }
     }
 
-    return prefix
+    return prefix;
+}
 
-};
-
-console.log(longestCommonPrefix(["flower","flow","flight"]))
+console.log(longestCommonPrefix(["flower", "flow", "flight"]));
