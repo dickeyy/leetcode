@@ -1,16 +1,16 @@
-# [Leetcode Solutions - Total: 30](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 31](https://leetcode.com/dickey)
 
 ## Stats
 
-_Last Updated 3/05/24_
+_Last Updated 3/06/24_
 
 ```
-- Total Solved: 30/3073 (0.98%)
-- Easy Solved: 24/778 (3.01%)
+- Total Solved: 31/3073 (1.00%)
+- Easy Solved: 25/778 (3.21%)
 - Medium Solved: 5/1613 (0.31%)
 - Hard Solved: 1/682 (0.15%)
 - Rank: 1,832,660
-- Acceptance Rate: 49.28%
+- Acceptance Rate: 50.00%
 ```
 
 _Stats pulled from_
@@ -36,9 +36,9 @@ Beats: 23.3% users
 | 176  | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary)                                                               | [SQL](/medium/176.sql) |
 | 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends) | [TS](/medium/1750.ts)  |
 
-## Easy Problems - 24/776
+## Easy Problems - 25/776
 
-Beats: 56.6% of users
+Beats: 59.0% of users
 
 | #    | Title                                                                                                                    | Solution(s)         |
 | ---- | ------------------------------------------------------------------------------------------------------------------------ | ------------------- |
@@ -51,6 +51,7 @@ Beats: 56.6% of users
 | 58   | [Length of Last Word](https://leetcode.com/problems/length-of-last-word)                                                 | [JS](/easy/58.js)   |
 | 66   | [Plus One](https://leetcode.com/problems/plus-one)                                                                       | [JS](/easy/66.js)   |
 | 125  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)                                                       | [TS](/easy/125.ts)  |
+| 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)                                                     | [TS](/easy/141.ts)  |
 | 217  | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)                                                   | [JS](/easy/217.js)  |
 | 268  | [Missing Number](https://leetcode.com/problems/missing-number)                                                           | [TS](/easy/268.ts)  |
 | 283  | [Move Zeros](https://leetcode.com/problems/move-zeroes)                                                                  | [JS](/easy/283.js)  |
