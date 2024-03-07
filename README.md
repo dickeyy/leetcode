@@ -2,7 +2,7 @@
 
 ## Stats
 
-_Last Updated 3/06/24_
+_Last Updated 3/07/24_
 
 ```
 - Total Solved: 42/3073 (1.37%)
