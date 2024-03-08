@@ -1,38 +1,40 @@
-# [Leetcode Solutions - Total: 45](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 47](https://leetcode.com/dickey)
 
 ## Stats
 
-_Last Updated 3/07/24_
+_Last Updated 3/08/24_
 
 ```
-- Total Solved: 45/3073 (1.46%)
+- Total Solved: 47/3073 (1.53%)
 - Easy Solved: 34/778 (4.37%)
-- Medium Solved: 10/1613 (0.62%)
-- Hard Solved: 1/682 (0.15%)
-- Rank: 1,623,757
-- Acceptance Rate: 57.61%
-- Contribution Points: 217
+- Medium Solved: 11/1613 (0.68%)
+- Hard Solved: 2/682 (0.29%)
+- Rank: 1,422,485
+- Acceptance Rate: 56.57%
+- Contribution Points: 228
 ```
 
 _Stats pulled from_ _[JeremyTsaii/leetcode-stats-api](https://github.com/JeremyTsaii/leetcode-stats-api)_
 
-## Hard Problems - 1/682
+## Hard Problems - 2/682
 
-Beats: N/A users
+Beats: 20.9% users
 
-| #   | Title                                                | Solution(s)        |
-| --- | ---------------------------------------------------- | ------------------ |
-| 458 | [Poor Pigs](https://leetcode.com/problems/poor-pigs) | [TS](/hard/458.ts) |
+| #   | Title                                                       | Solution(s)        |
+| --- | ----------------------------------------------------------- | ------------------ |
+| 65  | [Valid Number](https://leetcode.com/problems/valid-number/) | [TS](/hard/65.ts)  |
+| 458 | [Poor Pigs](https://leetcode.com/problems/poor-pigs)        | [TS](/hard/458.ts) |
 
-## Medium Problems - 10/1613
+## Medium Problems - 11/1613
 
-Beats: 41.2% users
+Beats: 43.5% users
 
 | #    | Title                                                                                                                                                  | Solution(s)            |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- |
 | 2    | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)                                                                                       | [JS](/medium/2.js)     |
 | 12   | [Integer to Roman](https://leetcode.com/problems/integer-to-roman)                                                                                     | [TS](/medium/12.ts)    |
 | 15   | [3Sum](https://leetcode.com/problems/3sum)                                                                                                             | [TS](/medium/15.ts)    |
+| 22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses)                                                                             | [TS](/medium/22.ts)    |
 | 50   | [Pow(x,n)](https://leetcode.com/problems/powx-n)                                                                                                       | [TS](/medium/50.ts)    |
 | 176  | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary)                                                                           | [SQL](/medium/176.sql) |
 | 535  | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)                                                                  | [TS](/medium/535.ts)   |
