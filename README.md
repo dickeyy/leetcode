@@ -1,16 +1,16 @@
-# [Leetcode Solutions - Total: 42](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 45](https://leetcode.com/dickey)
 
 ## Stats
 
 _Last Updated 3/07/24_
 
 ```
-- Total Solved: 42/3073 (1.37%)
-- Easy Solved: 31/778 (3.98%)
+- Total Solved: 45/3073 (1.46%)
+- Easy Solved: 34/778 (4.37%)
 - Medium Solved: 10/1613 (0.62%)
 - Hard Solved: 1/682 (0.15%)
 - Rank: 1,623,757
-- Acceptance Rate: 56.98%
+- Acceptance Rate: 57.61%
 - Contribution Points: 217
 ```
 
@@ -41,9 +41,9 @@ Beats: 41.2% users
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396.ts)  |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442.ts)  |
 
-## Easy Problems - 31/778
+## Easy Problems - 34/778
 
-Beats: 65.1% of users
+Beats: 67.8% of users
 
 | #    | Title                                                                                                                    | Solution(s)           |
 | ---- | ------------------------------------------------------------------------------------------------------------------------ | --------------------- |
@@ -63,6 +63,7 @@ Beats: 65.1% of users
 | 283  | [Move Zeros](https://leetcode.com/problems/move-zeroes)                                                                  | [JS](/easy/283.js)    |
 | 412  | [FizzBuzz](https://leetcode.com/problems/fizz-buzz)                                                                      | [TS](/easy/412.ts)    |
 | 876  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)                                     | [TS](/easy/876.ts)    |
+| 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)                   | [TS](/easy/1071.ts)   |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address)                                         | [TS](/easy/1108.ts)   |
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array) | [TS](/easy/1464.ts)   |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)                                              | [TS](/easy/1512.ts)   |
@@ -70,6 +71,7 @@ Beats: 65.1% of users
 | 1688 | [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament)                           | [TS](/easy/1688.ts)   |
 | 1716 | [Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank)                       | [TS](/easy/1716.ts)   |
 | 1757 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products)                         | [SQL](/easy/1757.sql) |
+| 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately)                                     | [TS](/easy/1768.ts)   |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence)                                               | [JS](/easy/1859.js)   |
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string)                               | [TS](/easy/1903.ts)   |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                                          | [TS](/easy/1929.ts)   |
@@ -78,3 +80,4 @@ Beats: 65.1% of users
 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function)                                 | [JS](/easy/2667.js)   |
 | 2703 | [Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed)                     | [TS](/easy/2703.ts)   |
 | 2723 | [Add Two Promises](https://leetcode.com/problems/add-two-promises)                                                       | [TS](/easy/2723.ts)   |
+| 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency)             | [TS](/easy/3005.ts)   |
