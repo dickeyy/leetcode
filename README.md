@@ -1,17 +1,17 @@
-# [Leetcode Solutions - Total: 47](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 48](https://leetcode.com/dickey)
 
 ## Stats
 
 _Last Updated 3/08/24_
 
 ```
-- Total Solved: 47/3073 (1.53%)
-- Easy Solved: 34/778 (4.37%)
+- Total Solved: 48/3073 (1.56%)
+- Easy Solved: 35/778 (4.50%)
 - Medium Solved: 11/1613 (0.68%)
 - Hard Solved: 2/682 (0.29%)
 - Rank: 1,422,485
-- Acceptance Rate: 56.57%
-- Contribution Points: 228
+- Acceptance Rate: 55.77%
+- Contribution Points: 239
 ```
 
 _Stats pulled from_ _[JeremyTsaii/leetcode-stats-api](https://github.com/JeremyTsaii/leetcode-stats-api)_
@@ -43,9 +43,9 @@ Beats: 43.5% users
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396.ts)  |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442.ts)  |
 
-## Easy Problems - 34/778
+## Easy Problems - 35/778
 
-Beats: 67.8% of users
+Beats: 68.6%% of users
 
 | #    | Title                                                                                                                    | Solution(s)           |
 | ---- | ------------------------------------------------------------------------------------------------------------------------ | --------------------- |
@@ -79,6 +79,7 @@ Beats: 67.8% of users
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                                          | [TS](/easy/1929.ts)   |
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)                  | [TS](/easy/2185.ts)   |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature)                                         | [TS](/easy/2469.ts)   |
+| 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value)                                               | [TS](/easy/2540.ts)   |
 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function)                                 | [JS](/easy/2667.js)   |
 | 2703 | [Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed)                     | [TS](/easy/2703.ts)   |
 | 2723 | [Add Two Promises](https://leetcode.com/problems/add-two-promises)                                                       | [TS](/easy/2723.ts)   |
