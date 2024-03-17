@@ -1,22 +1,22 @@
-# [Leetcode Solutions - Total: 49](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 50](https://leetcode.com/dickey)
 
 ## Stats
 
 _Last Updated 3/08/24_
 
 ```
-- Total Solved: 49/3073 (1.56%)
-- Easy Solved: 36/778 (4.50%)
-- Medium Solved: 11/1613 (0.68%)
-- Hard Solved: 2/682 (0.29%)
-- Rank: 1,422,485
-- Acceptance Rate: 55.77%
-- Contribution Points: 239
+- Total Solved: 50/3082 (1.62%)
+- Easy Solved: 36/781 (4.61%)
+- Medium Solved: 12/1617 (0.74%)
+- Hard Solved: 2/684 (0.29%)
+- Rank: 1,341,830
+- Acceptance Rate: 56.6%
+- Contribution Points: 264
 ```
 
 _Stats pulled from_ _[JeremyTsaii/leetcode-stats-api](https://github.com/JeremyTsaii/leetcode-stats-api)_
 
-## Hard Problems - 2/682
+## Hard Problems - 2/684
 
 Beats: 20.9% users
 
@@ -25,9 +25,9 @@ Beats: 20.9% users
 | 65  | [Valid Number](https://leetcode.com/problems/valid-number/) | [TS](/hard/65.ts)  |
 | 458 | [Poor Pigs](https://leetcode.com/problems/poor-pigs)        | [TS](/hard/458.ts) |
 
-## Medium Problems - 11/1613
+## Medium Problems - 12/1617
 
-Beats: 43.5% users
+Beats: 45.5% users
 
 | #    | Title                                                                                                                                                  | Solution(s)            |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- |
@@ -38,14 +38,15 @@ Beats: 43.5% users
 | 50   | [Pow(x,n)](https://leetcode.com/problems/powx-n)                                                                                                       | [TS](/medium/50.ts)    |
 | 176  | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary)                                                                           | [SQL](/medium/176.sql) |
 | 535  | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)                                                                  | [TS](/medium/535.ts)   |
+| 525  | [Contiguous Array](https://leetcode.com/problems/contiguous-array)                                                                                     | [TS](/medium/525.ts)   |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers)       | [TS](/medium/1689.ts)  |
 | 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends)             | [TS](/medium/1750.ts)  |
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396.ts)  |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442.ts)  |
 
-## Easy Problems - 36/778
+## Easy Problems - 36/781
 
-Beats: 68.6%% of users
+Beats: 69.3%% of users
 
 | #    | Title                                                                                                                    | Solution(s)           |
 | ---- | ------------------------------------------------------------------------------------------------------------------------ | --------------------- |
