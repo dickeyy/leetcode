@@ -1,12 +1,12 @@
-# [Leetcode Solutions - Total: 48](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 49](https://leetcode.com/dickey)
 
 ## Stats
 
 _Last Updated 3/08/24_
 
 ```
-- Total Solved: 48/3073 (1.56%)
-- Easy Solved: 35/778 (4.50%)
+- Total Solved: 49/3073 (1.56%)
+- Easy Solved: 36/778 (4.50%)
 - Medium Solved: 11/1613 (0.68%)
 - Hard Solved: 2/682 (0.29%)
 - Rank: 1,422,485
@@ -43,7 +43,7 @@ Beats: 43.5% users
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396.ts)  |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442.ts)  |
 
-## Easy Problems - 35/778
+## Easy Problems - 36/778
 
 Beats: 68.6%% of users
 
@@ -63,6 +63,7 @@ Beats: 68.6%% of users
 | 217  | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)                                                   | [JS](/easy/217.js)    |
 | 268  | [Missing Number](https://leetcode.com/problems/missing-number)                                                           | [TS](/easy/268.ts)    |
 | 283  | [Move Zeros](https://leetcode.com/problems/move-zeroes)                                                                  | [JS](/easy/283.js)    |
+| 349  | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)                                   | [TS](/easy/349.ts)    |
 | 412  | [FizzBuzz](https://leetcode.com/problems/fizz-buzz)                                                                      | [TS](/easy/412.ts)    |
 | 876  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)                                     | [TS](/easy/876.ts)    |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)                   | [TS](/easy/1071.ts)   |
