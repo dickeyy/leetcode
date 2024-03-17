@@ -37,8 +37,8 @@ Beats: 45.5% users
 | 22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses)                                                                             | [TS](/medium/22.ts)    |
 | 50   | [Pow(x,n)](https://leetcode.com/problems/powx-n)                                                                                                       | [TS](/medium/50.ts)    |
 | 176  | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary)                                                                           | [SQL](/medium/176.sql) |
-| 535  | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)                                                                  | [TS](/medium/535.ts)   |
 | 525  | [Contiguous Array](https://leetcode.com/problems/contiguous-array)                                                                                     | [TS](/medium/525.ts)   |
+| 535  | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)                                                                  | [TS](/medium/535.ts)   |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers)       | [TS](/medium/1689.ts)  |
 | 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends)             | [TS](/medium/1750.ts)  |
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396.ts)  |
