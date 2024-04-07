@@ -1,12 +1,12 @@
-# [Leetcode Solutions - Total: 51](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 52](https://leetcode.com/dickey)
 
 ## Stats
 
 _Last Updated 3/08/24_
 
 ```
-- Total Solved: 51/3108 (1.64%)
-- Easy Solved: 36/786 (4.58%)
+- Total Solved: 52/3108 (1.67%)
+- Easy Solved: 37/786 (4.71%)
 - Medium Solved: 13/1630 (0.74%)
 - Hard Solved: 2/692 (0.80%)
 - Rank: 1,367,599
@@ -45,9 +45,9 @@ Beats: 47.4% users
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396.ts)  |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442.ts)  |
 
-## Easy Problems - 36/786
+## Easy Problems - 37/786
 
-Beats: 69.3%% of users
+Beats: 70.0% of users
 
 | #    | Title                                                                                                                    | Solution(s)           |
 | ---- | ------------------------------------------------------------------------------------------------------------------------ | --------------------- |
@@ -86,4 +86,5 @@ Beats: 69.3%% of users
 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function)                                 | [JS](/easy/2667.js)   |
 | 2703 | [Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed)                     | [TS](/easy/2703.ts)   |
 | 2723 | [Add Two Promises](https://leetcode.com/problems/add-two-promises)                                                       | [TS](/easy/2723.ts)   |
+| 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character)                         | [TS](/easy/2942.ts)   |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency)             | [TS](/easy/3005.ts)   |
