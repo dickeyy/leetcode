@@ -5,8 +5,8 @@
 _Last Updated 3/08/24_
 
 ```
-- Total Solved: 52/3108 (1.67%)
-- Easy Solved: 37/786 (4.71%)
+- Total Solved: 53/3108 (1.67%)
+- Easy Solved: 38/786 (4.71%)
 - Medium Solved: 13/1630 (0.74%)
 - Hard Solved: 2/692 (0.80%)
 - Rank: 1,367,599
@@ -45,7 +45,7 @@ Beats: 47.4% users
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396.ts)  |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442.ts)  |
 
-## Easy Problems - 37/786
+## Easy Problems - 38/786
 
 Beats: 70.0% of users
 
@@ -77,6 +77,7 @@ Beats: 70.0% of users
 | 1716 | [Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank)                       | [TS](/easy/1716.ts)   |
 | 1757 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products)                         | [SQL](/easy/1757.sql) |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately)                                     | [TS](/easy/1768.ts)   |
+| 1791 | [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph)                                     | [TS](/easy/1791.ts)   |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence)                                               | [JS](/easy/1859.js)   |
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string)                               | [TS](/easy/1903.ts)   |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                                          | [TS](/easy/1929.ts)   |
