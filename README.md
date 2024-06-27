@@ -1,12 +1,12 @@
-# [Leetcode Solutions - Total: 52](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 53](https://leetcode.com/dickey)
 
 ## Stats
 
-_Last Updated 3/08/24_
+_Last Updated 6/26/24_
 
 ```
-- Total Solved: 53/3108 (1.67%)
-- Easy Solved: 38/786 (4.71%)
+- Total Solved: 53/3108 (1.70%)
+- Easy Solved: 38/786 (4.83%)
 - Medium Solved: 13/1630 (0.74%)
 - Hard Solved: 2/692 (0.80%)
 - Rank: 1,367,599
