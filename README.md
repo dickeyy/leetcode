@@ -1,33 +1,31 @@
-# [Leetcode Solutions - Total: 53](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 56](https://leetcode.com/dickey)
 
 ## Stats
 
-_Last Updated 6/26/24_
+_Last Updated 8/24/24_
 
 ```
-- Total Solved: 53/3108 (1.70%)
-- Easy Solved: 38/786 (4.83%)
-- Medium Solved: 13/1630 (0.74%)
-- Hard Solved: 2/692 (0.80%)
-- Rank: 1,367,599
-- Acceptance Rate: 54.95%
-- Contribution Points: 275
+- Total Solved: 56/3267 (1.71%)
+- Easy Solved: 40/821 (4.87%)
+- Medium Solved: 14/1712 (0.81%)
+- Hard Solved: 2/734 (0.27%)
+- Rank: 1,485,754
+- Acceptance Rate: 55.00%
+- Contribution Points: 294
 ```
 
-_Stats pulled from_ _[JeremyTsaii/leetcode-stats-api](https://github.com/JeremyTsaii/leetcode-stats-api)_
+## Hard Problems - 2/734
 
-## Hard Problems - 2/692
-
-Beats: 20.9% users
+Beats: 20.66% users
 
 | #   | Title                                                       | Solution(s)        |
 | --- | ----------------------------------------------------------- | ------------------ |
 | 65  | [Valid Number](https://leetcode.com/problems/valid-number/) | [TS](/hard/65.ts)  |
 | 458 | [Poor Pigs](https://leetcode.com/problems/poor-pigs)        | [TS](/hard/458.ts) |
 
-## Medium Problems - 13/1630
+## Medium Problems - 14/1712
 
-Beats: 47.4% users
+Beats: 48.57% users
 
 | #    | Title                                                                                                                                                  | Solution(s)            |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- |
@@ -44,10 +42,11 @@ Beats: 47.4% users
 | 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends)             | [TS](/medium/1750.ts)  |
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396.ts)  |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442.ts)  |
+| 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610.ts)  |
 
-## Easy Problems - 38/786
+## Easy Problems - 40/821
 
-Beats: 70.0% of users
+Beats: 71.88% of users
 
 | #    | Title                                                                                                                    | Solution(s)           |
 | ---- | ------------------------------------------------------------------------------------------------------------------------ | --------------------- |
@@ -67,6 +66,7 @@ Beats: 70.0% of users
 | 283  | [Move Zeros](https://leetcode.com/problems/move-zeroes)                                                                  | [JS](/easy/283.js)    |
 | 349  | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)                                   | [TS](/easy/349.ts)    |
 | 412  | [FizzBuzz](https://leetcode.com/problems/fizz-buzz)                                                                      | [TS](/easy/412.ts)    |
+| 476  | [Number Complement](https://leetcode.com/problems/number-complement)                                                     | [TS](/easy/476.ts)    |
 | 876  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)                                     | [TS](/easy/876.ts)    |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)                   | [TS](/easy/1071.ts)   |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address)                                         | [TS](/easy/1108.ts)   |
@@ -85,6 +85,7 @@ Beats: 70.0% of users
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature)                                         | [TS](/easy/2469.ts)   |
 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value)                                               | [TS](/easy/2540.ts)   |
 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function)                                 | [JS](/easy/2667.js)   |
+| 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens)                                     | [TS](/easy/2678.ts)   |
 | 2703 | [Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed)                     | [TS](/easy/2703.ts)   |
 | 2723 | [Add Two Promises](https://leetcode.com/problems/add-two-promises)                                                       | [TS](/easy/2723.ts)   |
 | 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character)                         | [TS](/easy/2942.ts)   |
