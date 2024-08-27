@@ -1,35 +1,36 @@
-# [Leetcode Solutions - Total: 56](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 59](https://leetcode.com/dickey)
 
 ## Stats
 
-_Last Updated 8/24/24_
+_Last Updated 8/26/24_
 
 ```
-- Total Solved: 56/3267 (1.71%)
-- Easy Solved: 40/821 (4.87%)
-- Medium Solved: 14/1712 (0.81%)
-- Hard Solved: 2/734 (0.27%)
-- Rank: 1,485,754
-- Acceptance Rate: 55.00%
-- Contribution Points: 294
+- Total Solved: 59/3267 (1.80%)
+- Easy Solved: 41/821 (4.99%)
+- Medium Solved: 15/1712 (0.87%)
+- Hard Solved: 3/734 (0.41%)
+- Rank: 1,453,745
+- Acceptance Rate: 56.45%
 ```
 
-## Hard Problems - 2/734
+## Hard Problems - 3/734
 
-Beats: 20.66% users
+Beats: 32.73% users
 
-| #   | Title                                                       | Solution(s)        |
-| --- | ----------------------------------------------------------- | ------------------ |
-| 65  | [Valid Number](https://leetcode.com/problems/valid-number/) | [TS](/hard/65.ts)  |
-| 458 | [Poor Pigs](https://leetcode.com/problems/poor-pigs)        | [TS](/hard/458.ts) |
+| #   | Title                                                                                    | Solution(s)        |
+| --- | ---------------------------------------------------------------------------------------- | ------------------ |
+| 4   | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | [TS](/hard/4.ts)   |
+| 65  | [Valid Number](https://leetcode.com/problems/valid-number/)                              | [TS](/hard/65.ts)  |
+| 458 | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                     | [TS](/hard/458.ts) |
 
-## Medium Problems - 14/1712
+## Medium Problems - 15/1712
 
-Beats: 48.57% users
+Beats: 50.18% users
 
 | #    | Title                                                                                                                                                  | Solution(s)            |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- |
 | 2    | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)                                                                                       | [JS](/medium/2.js)     |
+| 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)                         | [TS](/medium/3.ts)     |
 | 12   | [Integer to Roman](https://leetcode.com/problems/integer-to-roman)                                                                                     | [TS](/medium/12.ts)    |
 | 15   | [3Sum](https://leetcode.com/problems/3sum)                                                                                                             | [TS](/medium/15.ts)    |
 | 22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses)                                                                             | [TS](/medium/22.ts)    |
@@ -44,9 +45,9 @@ Beats: 48.57% users
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442.ts)  |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610.ts)  |
 
-## Easy Problems - 40/821
+## Easy Problems - 41/821
 
-Beats: 71.88% of users
+Beats: 72.49% of users
 
 | #    | Title                                                                                                                    | Solution(s)           |
 | ---- | ------------------------------------------------------------------------------------------------------------------------ | --------------------- |
@@ -70,6 +71,7 @@ Beats: 71.88% of users
 | 876  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)                                     | [TS](/easy/876.ts)    |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)                   | [TS](/easy/1071.ts)   |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address)                                         | [TS](/easy/1108.ts)   |
+| 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)      | [TS](/easy/1431.ts)   |
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array) | [TS](/easy/1464.ts)   |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)                                              | [TS](/easy/1512.ts)   |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth)                                         | [TS](/easy/1672.ts)   |
