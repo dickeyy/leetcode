@@ -1,16 +1,16 @@
-# [Leetcode Solutions - Total: 59](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 60](https://leetcode.com/dickey)
 
 ## Stats
 
-_Last Updated 8/26/24_
+_Last Updated 8/27/24_
 
 ```
-- Total Solved: 59/3267 (1.80%)
-- Easy Solved: 41/821 (4.99%)
+- Total Solved: 60/3268 (1.84%)
+- Easy Solved: 42/821 (5.12%)
 - Medium Solved: 15/1712 (0.87%)
-- Hard Solved: 3/734 (0.41%)
-- Rank: 1,453,745
-- Acceptance Rate: 56.45%
+- Hard Solved: 3/735 (0.41%)
+- Rank: 1,406,335
+- Acceptance Rate: 57.14%
 ```
 
 ## Hard Problems - 3/734
@@ -45,9 +45,9 @@ Beats: 50.18% users
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442.ts)  |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610.ts)  |
 
-## Easy Problems - 41/821
+## Easy Problems - 42/821
 
-Beats: 72.49% of users
+Beats: 73.10% of users
 
 | #    | Title                                                                                                                    | Solution(s)           |
 | ---- | ------------------------------------------------------------------------------------------------------------------------ | --------------------- |
@@ -84,6 +84,7 @@ Beats: 72.49% of users
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string)                               | [TS](/easy/1903.ts)   |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                                          | [TS](/easy/1929.ts)   |
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)                  | [TS](/easy/2185.ts)   |
+| 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)                    | [TS](/easy/2215.ts)   |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature)                                         | [TS](/easy/2469.ts)   |
 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value)                                               | [TS](/easy/2540.ts)   |
 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function)                                 | [JS](/easy/2667.js)   |
