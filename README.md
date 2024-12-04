@@ -1,13 +1,13 @@
-# [Leetcode Solutions - Total: 68](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 69](https://leetcode.com/dickey)
 
 ## Stats
 
-_Last Updated 12/3/24_
+_Last Updated 12/4/24_
 
 ```
-- Total Solved: 68/3374 (1.98%)
+- Total Solved: 69/3374 (1.98%)
 - Easy Solved: 47/840 (5.47%)
-- Medium Solved: 17/1762 (0.96%)
+- Medium Solved: 18/1762 (0.96%)
 - Hard Solved: 4/772 (0.52%)
 - Rank: 1,505,356
 - Acceptance Rate: 59.12%
@@ -24,7 +24,7 @@ Beats: 40.57% users
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                     | [TS](/hard/458.ts)       |
 | 2097 | [Valid Arrangement](https://leetcode.com/problems/valid-arrangement)                     | [Go](/hard/2097/main.go) |
 
-## Medium Problems - 17/1762
+## Medium Problems - 18/1762
 
 Beats: 53.08% users
 
@@ -33,6 +33,7 @@ Beats: 53.08% users
 | 2    | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)                                                                                       | [JS](/medium/2.js)         |
 | 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)                         | [TS](/medium/3.ts)         |
 | 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)                                                           | [Go](/medium/5/main.go)    |
+| 8    | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)                                                                      | [Go](/medium/8/main.go)    |
 | 12   | [Integer to Roman](https://leetcode.com/problems/integer-to-roman)                                                                                     | [TS](/medium/12.ts)        |
 | 15   | [3Sum](https://leetcode.com/problems/3sum)                                                                                                             | [TS](/medium/15.ts)        |
 | 22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses)                                                                             | [TS](/medium/22.ts)        |
