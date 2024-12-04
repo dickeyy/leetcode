@@ -1,12 +1,12 @@
-# [Leetcode Solutions - Total: 67](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 68](https://leetcode.com/dickey)
 
 ## Stats
 
 _Last Updated 12/3/24_
 
 ```
-- Total Solved: 67/3374 (1.98%)
-- Easy Solved: 46/840 (5.47%)
+- Total Solved: 68/3374 (1.98%)
+- Easy Solved: 47/840 (5.47%)
 - Medium Solved: 17/1762 (0.96%)
 - Hard Solved: 4/772 (0.52%)
 - Rank: 1,505,356
@@ -48,7 +48,7 @@ Beats: 53.08% users
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442.ts)      |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610.ts)      |
 
-## Easy Problems - 46/840
+## Easy Problems - 47/840
 
 Beats: 75.38% of users
 
@@ -62,6 +62,7 @@ Beats: 75.38% of users
 | 26   | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)                                                   | [TS](/easy/26.ts)        |
 | 27   | [Remove Element](https://leetcode.com/problems/remove-element)                                                                                             | [TS](/easy/27.ts)        |
 | 28   | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string)                     | [Go](/easy/28/main.go)   |
+| 35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position)                                                                             | [Go](/easy/35/main.go)   |
 | 58   | [Length of Last Word](https://leetcode.com/problems/length-of-last-word)                                                                                   | [JS](/easy/58.js)        |
 | 66   | [Plus One](https://leetcode.com/problems/plus-one)                                                                                                         | [JS](/easy/66.js)        |
 | 67   | [Add Binary](https://leetcode.com/problems/add-binary)                                                                                                     | [Go](/easy/67/main.go)   |
