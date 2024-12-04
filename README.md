@@ -9,7 +9,7 @@ _Last Updated 12/3/24_
 - Easy Solved: 44/840 (5.23%)
 - Medium Solved: 16/1762 (0.91%)
 - Hard Solved: 4/772 (0.52%)
-- Rank: 1,406,335
+- Rank: 1,505,356
 - Acceptance Rate: 58.33%
 ```
 
