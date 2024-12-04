@@ -1,21 +1,21 @@
-# [Leetcode Solutions - Total: 60](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 61](https://leetcode.com/dickey)
 
 ## Stats
 
-_Last Updated 8/27/24_
+_Last Updated 12/3/24_
 
 ```
-- Total Solved: 60/3268 (1.84%)
-- Easy Solved: 42/821 (5.12%)
-- Medium Solved: 15/1712 (0.87%)
-- Hard Solved: 3/735 (0.41%)
+- Total Solved: 61/3374 (1.81%)
+- Easy Solved: 42/840 (5.00%)
+- Medium Solved: 16/1762 (0.90%)
+- Hard Solved: 3/772 (0.38%)
 - Rank: 1,406,335
-- Acceptance Rate: 57.14%
+- Acceptance Rate: 57.03%
 ```
 
-## Hard Problems - 3/734
+## Hard Problems - 3/772
 
-Beats: 32.73% users
+Beats: 32.81% users
 
 | #   | Title                                                                                    | Solution(s)        |
 | --- | ---------------------------------------------------------------------------------------- | ------------------ |
@@ -23,9 +23,9 @@ Beats: 32.73% users
 | 65  | [Valid Number](https://leetcode.com/problems/valid-number/)                              | [TS](/hard/65.ts)  |
 | 458 | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                     | [TS](/hard/458.ts) |
 
-## Medium Problems - 15/1712
+## Medium Problems - 16/1762
 
-Beats: 50.18% users
+Beats: 51.51% users
 
 | #    | Title                                                                                                                                                  | Solution(s)            |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- |
@@ -41,13 +41,14 @@ Beats: 50.18% users
 | 678  | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/?envType=daily-question&envId=2024-04-07)                | [TS](/medium/678.ts)   |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers)       | [TS](/medium/1689.ts)  |
 | 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends)             | [TS](/medium/1750.ts)  |
+| 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string)                                                                   | [Go](/medium/2109.go)  |
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396.ts)  |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442.ts)  |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610.ts)  |
 
-## Easy Problems - 42/821
+## Easy Problems - 42/840
 
-Beats: 73.10% of users
+Beats: 73.18% of users
 
 | #    | Title                                                                                                                    | Solution(s)           |
 | ---- | ------------------------------------------------------------------------------------------------------------------------ | --------------------- |
