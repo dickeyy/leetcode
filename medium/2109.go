@@ -1,6 +1,10 @@
 package main
 
-import "strings"
+import (
+	"strings"
+
+	"github.com/dickeyy/leetcode/utils"
+)
 
 /*
  *   Stats:
@@ -9,7 +13,7 @@ import "strings"
  */
 
 func main() {
-	addSpaces_test()
+	utils.AssertEqual("Hi Im Here", addSpaces("HiImHere", []int{2, 4, 8}), 1)
 }
 
 func addSpaces(s string, spaces []int) string {
@@ -29,8 +33,4 @@ func addSpaces(s string, spaces []int) string {
 	}
 
 	return builder.String()
-}
-
-func addSpaces_test() {
-	println("test 1 passed:", addSpaces("abc", []int{1, 2, 3}) == "a b c")
 }
