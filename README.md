@@ -1,27 +1,28 @@
-# [Leetcode Solutions - Total: 63](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 64](https://leetcode.com/dickey)
 
 ## Stats
 
 _Last Updated 12/3/24_
 
 ```
-- Total Solved: 63/3374 (1.81%)
-- Easy Solved: 44/840 (5.00%)
-- Medium Solved: 16/1762 (0.90%)
-- Hard Solved: 3/772 (0.38%)
+- Total Solved: 64/3374 (1.89%)
+- Easy Solved: 44/840 (5.23%)
+- Medium Solved: 16/1762 (0.91%)
+- Hard Solved: 4/772 (0.52%)
 - Rank: 1,406,335
-- Acceptance Rate: 57.03%
+- Acceptance Rate: 58.33%
 ```
 
-## Hard Problems - 3/772
+## Hard Problems - 4/772
 
-Beats: 32.81% users
+Beats: 40.57% users
 
-| #   | Title                                                                                    | Solution(s)        |
-| --- | ---------------------------------------------------------------------------------------- | ------------------ |
-| 4   | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | [TS](/hard/4.ts)   |
-| 65  | [Valid Number](https://leetcode.com/problems/valid-number/)                              | [TS](/hard/65.ts)  |
-| 458 | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                     | [TS](/hard/458.ts) |
+| #    | Title                                                                                    | Solution(s)              |
+| ---- | ---------------------------------------------------------------------------------------- | ------------------------ |
+| 4    | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | [TS](/hard/4.ts)         |
+| 65   | [Valid Number](https://leetcode.com/problems/valid-number/)                              | [TS](/hard/65.ts)        |
+| 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                     | [TS](/hard/458.ts)       |
+| 2097 | [Valid Arrangement](https://leetcode.com/problems/valid-arrangement)                     | [Go](/hard/2097/main.go) |
 
 ## Medium Problems - 16/1762
 
@@ -48,7 +49,7 @@ Beats: 51.51% users
 
 ## Easy Problems - 44/840
 
-Beats: 73.18% of users
+Beats: 74.32% of users
 
 | #    | Title                                                                                                                                                      | Solution(s)              |
 | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
