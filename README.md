@@ -1,12 +1,12 @@
-# [Leetcode Solutions - Total: 62](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 63](https://leetcode.com/dickey)
 
 ## Stats
 
 _Last Updated 12/3/24_
 
 ```
-- Total Solved: 61/3374 (1.81%)
-- Easy Solved: 43/840 (5.00%)
+- Total Solved: 63/3374 (1.81%)
+- Easy Solved: 44/840 (5.00%)
 - Medium Solved: 16/1762 (0.90%)
 - Hard Solved: 3/772 (0.38%)
 - Rank: 1,406,335
@@ -46,7 +46,7 @@ Beats: 51.51% users
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442.ts)      |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610.ts)      |
 
-## Easy Problems - 43/840
+## Easy Problems - 44/840
 
 Beats: 73.18% of users
 
@@ -72,6 +72,7 @@ Beats: 73.18% of users
 | 876  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)                                                                       | [TS](/easy/876.ts)       |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)                                                     | [TS](/easy/1071.ts)      |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address)                                                                           | [TS](/easy/1108.ts)      |
+| 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist)                                                           | [Go](/easy/1346/main.go) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)                                        | [TS](/easy/1431.ts)      |
 | 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) | [Go](/easy/1455/main.go) |
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array)                                   | [TS](/easy/1464.ts)      |
