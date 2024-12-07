@@ -1,12 +1,12 @@
-# [Leetcode Solutions - Total: 71](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 72](https://leetcode.com/dickey)
 
 ## Stats
 
 _Last Updated 12/7/24_
 
 ```
-- Total Solved: 71/3374 (1.98%)
-- Easy Solved: 49/840 (5.47%)
+- Total Solved: 72/3374 (1.98%)
+- Easy Solved: 50/840 (5.47%)
 - Medium Solved: 18/1762 (0.96%)
 - Hard Solved: 4/772 (0.52%)
 - Rank: 1,505,356
@@ -49,7 +49,7 @@ Beats: 53.08% users
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442.ts)      |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610.ts)      |
 
-## Easy Problems - 49/840
+## Easy Problems - 50/840
 
 Beats: 75.38% of users
 
@@ -101,6 +101,7 @@ Beats: 75.38% of users
 | 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens)                                                                       | [TS](/easy/2678.ts)      |
 | 2703 | [Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed)                                                       | [TS](/easy/2703.ts)      |
 | 2723 | [Add Two Promises](https://leetcode.com/problems/add-two-promises)                                                                                         | [TS](/easy/2723.ts)      |
+| 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number)                                                     | [Go](/easy/2769/main.go) |
 | 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character)                                                           | [TS](/easy/2942.ts)      |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency)                                               | [TS](/easy/3005.ts)      |
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string/)                                                                                      | [Go](/easy/3110/main.go) |
