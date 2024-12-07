@@ -1,12 +1,12 @@
-# [Leetcode Solutions - Total: 73](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 74](https://leetcode.com/dickey)
 
 ## Stats
 
 _Last Updated 12/7/24_
 
 ```
-- Total Solved: 73/3374 (1.98%)
-- Easy Solved: 51/840 (5.47%)
+- Total Solved: 74/3374 (1.98%)
+- Easy Solved: 52/840 (5.47%)
 - Medium Solved: 18/1762 (0.96%)
 - Hard Solved: 4/772 (0.52%)
 - Rank: 1,505,356
@@ -49,7 +49,7 @@ Beats: 53.08% users
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442/2442.ts) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
 
-## Easy Problems - 51/840
+## Easy Problems - 52/840
 
 Beats: 75.38% of users
 
