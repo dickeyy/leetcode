@@ -1,4 +1,4 @@
-import assertEquals from "../utils/assertEquals";
+import assertEquals from "../../utils/assertEquals";
 
 /*
  *   Stats (Attempt 1):

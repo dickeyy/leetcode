@@ -1,4 +1,4 @@
-import assertEquals from "../utils/assertEquals";
+import assertEquals from "../../utils/assertEquals";
 
 function lemonadeChange(bills: number[]): boolean {
     let change: number = 0;
