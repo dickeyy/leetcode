@@ -1,12 +1,12 @@
-# [Leetcode Solutions - Total: 72](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 73](https://leetcode.com/dickey)
 
 ## Stats
 
 _Last Updated 12/7/24_
 
 ```
-- Total Solved: 72/3374 (1.98%)
-- Easy Solved: 50/840 (5.47%)
+- Total Solved: 73/3374 (1.98%)
+- Easy Solved: 51/840 (5.47%)
 - Medium Solved: 18/1762 (0.96%)
 - Hard Solved: 4/772 (0.52%)
 - Rank: 1,505,356
@@ -49,7 +49,7 @@ Beats: 53.08% users
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442.ts)      |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610.ts)      |
 
-## Easy Problems - 50/840
+## Easy Problems - 51/840
 
 Beats: 75.38% of users
 
@@ -91,6 +91,7 @@ Beats: 75.38% of users
 | 1791 | [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph)                                                                       | [TS](/easy/1791.ts)      |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence)                                                                                 | [JS](/easy/1859.js)      |
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string)                                                                 | [TS](/easy/1903.ts)      |
+| 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation)                                                                 | [Go](/easy/1920/main.go) |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                                                                            | [TS](/easy/1929.ts)      |
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)                                                    | [TS](/easy/2185.ts)      |
 | 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)                                                      | [TS](/easy/2215.ts)      |
