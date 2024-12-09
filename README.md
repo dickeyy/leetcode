@@ -1,23 +1,23 @@
-# [Leetcode Solutions - Total: 74](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 75](https://leetcode.com/dickey)
 
 [![wakatime](https://wakatime.com/badge/github/dickeyy/leetcode.svg)](https://wakatime.com/badge/github/dickeyy/leetcode)
 
 ## Stats
 
-_Last Updated 12/7/24_
+_Last Updated 12/9/24_
 
 ```
-- Total Solved: 74/3374 (1.98%)
-- Easy Solved: 52/840 (5.47%)
-- Medium Solved: 18/1762 (0.96%)
-- Hard Solved: 4/772 (0.52%)
-- Rank: 1,505,356
-- Acceptance Rate: 59.12%
+- Total Solved: 75/3374 (2.22%)
+- Easy Solved: 52/842 (6.17%)
+- Medium Solved: 19/1766 (1.08%)
+- Hard Solved: 4/776 (0.52%)
+- Rank: 1,307,561
+- Acceptance Rate: 61.59%
 ```
 
-## Hard Problems - 4/772
+## Hard Problems - 4/776
 
-Beats: 40.57% users
+Beats: 40.58% users
 
 | #    | Title                                                                                    | Solution(s)              |
 | ---- | ---------------------------------------------------------------------------------------- | ------------------------ |
@@ -26,9 +26,9 @@ Beats: 40.57% users
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                     | [TS](/hard/458/458.ts)   |
 | 2097 | [Valid Arrangement](https://leetcode.com/problems/valid-arrangement)                     | [Go](/hard/2097/main.go) |
 
-## Medium Problems - 18/1762
+## Medium Problems - 19/1766
 
-Beats: 53.08% users
+Beats: 55.55% users
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------- |
@@ -44,6 +44,7 @@ Beats: 53.08% users
 | 525  | [Contiguous Array](https://leetcode.com/problems/contiguous-array)                                                                                     | [TS](/medium/525/525.ts)   |
 | 535  | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)                                                                  | [TS](/medium/535/535.ts)   |
 | 678  | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/?envType=daily-question&envId=2024-04-07)                | [TS](/medium/678/678.ts)   |
+| 1302 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum)                                                                                 | [Go](/medium/1302/main.go) |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers)       | [TS](/medium/1669/1689.ts) |
 | 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends)             | [TS](/medium/1750/1750.ts) |
 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string)                                                                   | [Go](/medium/2109/main.go) |
@@ -51,9 +52,9 @@ Beats: 53.08% users
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442/2442.ts) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
 
-## Easy Problems - 52/840
+## Easy Problems - 52/842
 
-Beats: 75.38% of users
+Beats: 78.29% of users
 
 | #    | Title                                                                                                                                                      | Solution(s)                                                                        |
 | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
