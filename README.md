@@ -1,14 +1,14 @@
-# [Leetcode Solutions - Total: 76](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 77](https://leetcode.com/dickey)
 
 [![wakatime](https://wakatime.com/badge/github/dickeyy/leetcode.svg)](https://wakatime.com/badge/github/dickeyy/leetcode)
 
 ## Stats
 
-_Last Updated 12/9/24_
+_Last Updated 4/15/25_
 
 ```
-- Total Solved: 76/3374 (2.22%)
-- Easy Solved: 53/842 (6.17%)
+- Total Solved: 77/3374 (2.22%)
+- Easy Solved: 54/842 (6.41%)
 - Medium Solved: 19/1766 (1.08%)
 - Hard Solved: 4/776 (0.52%)
 - Rank: 1,307,561
@@ -52,7 +52,7 @@ Beats: 55.55% users
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442/2442.ts) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
 
-## Easy Problems - 53/842
+## Easy Problems - 54/842
 
 Beats: 78.29% of users
 
@@ -86,6 +86,7 @@ Beats: 78.29% of users
 | 1455  | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) | [Go](/easy/1455/main.go)                                                           |
 | 1464  | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array)                                   | [TS](/easy/1464/1464.ts)                                                           |
 | 1512  | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)                                                                                | [TS](/easy/1512/1512.ts)                                                           |
+| 1534  | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets)                                                                                   | [Go](/easy/1534/main.go)                                                           |
 | 1672  | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth)                                                                           | [TS](/easy/1672/1672.ts)                                                           |
 | 1688  | [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament)                                                             | [TS](/easy/1688/1688.ts)                                                           |
 | 1716  | [Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank)                                                         | [TS](/easy/1716/1716.ts)                                                           |
