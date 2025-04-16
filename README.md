@@ -14,6 +14,7 @@ _Last Updated 4/16/25_
 - Rank: 1,420,315
 - Acceptance Rate: 62.82%
 ```
+
 ## Hard Problems - 4/822
 
 | #    | Title                                                                                    | Solution(s)              |
@@ -22,6 +23,7 @@ _Last Updated 4/16/25_
 | 65   | [Valid Number](https://leetcode.com/problems/valid-number/)                              | [TS](/hard/65/65.ts)     |
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                     | [TS](/hard/458/458.ts)   |
 | 2097 | [Valid Arrangement](https://leetcode.com/problems/valid-arrangement)                     | [Go](/hard/2097/main.go) |
+
 ## Medium Problems - 19/1825
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -45,6 +47,7 @@ _Last Updated 4/16/25_
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396/2396.ts) |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442/2442.ts) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
+
 ## Easy Problems - 56/873
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
@@ -102,6 +105,7 @@ _Last Updated 4/16/25_
 | 2703  | [Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed)                                                       | [TS](/easy/2703/2703.ts)                                                           |
 | 2723  | [Add Two Promises](https://leetcode.com/problems/add-two-promises)                                                                                         | [TS](/easy/2723/2723.ts)                                                           |
 | 2769  | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number)                                                     | [Go](/easy/2769/main.go)                                                           |
+| 2873  | [Maximum Triplet Value](https://leetcode.com/problems/maximum-triplet-value)                                                                               | [Go](/easy/2873/main.go)                                                           |
 | 2942  | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character)                                                           | [TS](/easy/2942/2942.ts)                                                           |
 | 3005  | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency)                                               | [TS](/easy/3005/3005.ts)                                                           |
 | 3110  | [Score of a String](https://leetcode.com/problems/score-of-a-string/)                                                                                      | [Go](/easy/3110/main.go)                                                           |
