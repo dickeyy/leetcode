@@ -4,20 +4,18 @@
 
 ## Stats
 
-_Last Updated 4/15/25_
+_Last Updated 4/16/25_
 
 ```
-- Total Solved: 77/3374 (2.22%)
-- Easy Solved: 54/842 (6.41%)
-- Medium Solved: 19/1766 (1.08%)
-- Hard Solved: 4/776 (0.52%)
-- Rank: 1,307,561
-- Acceptance Rate: 61.59%
+- Total Solved: 77/3520 (2.19%)
+- Easy Solved: 54/873 (6.19%)
+- Medium Solved: 19/1825 (1.04%)
+- Hard Solved: 4/822 (0.49%)
+- Rank: 1,420,315
+- Acceptance Rate: 62.34%
 ```
 
 ## Hard Problems - 4/776
-
-Beats: 40.58% users
 
 | #    | Title                                                                                    | Solution(s)              |
 | ---- | ---------------------------------------------------------------------------------------- | ------------------------ |
@@ -27,8 +25,6 @@ Beats: 40.58% users
 | 2097 | [Valid Arrangement](https://leetcode.com/problems/valid-arrangement)                     | [Go](/hard/2097/main.go) |
 
 ## Medium Problems - 19/1766
-
-Beats: 55.55% users
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------- |
@@ -53,8 +49,6 @@ Beats: 55.55% users
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
 
 ## Easy Problems - 54/842
-
-Beats: 78.29% of users
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
 | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
