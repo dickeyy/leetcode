@@ -33,6 +33,7 @@ jobs:
                   const username = process.env.LEETCODE_USERNAME;
                   const readmePath = 'README.md';
                   const apiUrl = `https://leetcode-stats-api.herokuapp.com/${username}`;
+                  const profileUrl = `https://leetcode.com/${username}`;
 
                   async function fetchStatsAndUpdateReadme() {
                     try {
@@ -91,8 +92,10 @@ jobs:
                       const now = new Date();
                       const dateStr = `${now.getMonth() + 1}/${now.getDate()}/${String(now.getFullYear()).slice(-2)}`;
 
-                      readmeContent = readmeContent.replace(/^# [Leetcode Solutions - Total: \d+](https:\/\/leetcode\.com\/dickey).*$/m, `# [Leetcode Solutions - Total: ${solved.All}/${total.All} (${percentages.All}%)](https://leetcode.com/dickey)`);
+                      // --- Replace H1 Header ---
+                      readmeContent = readmeContent.replace(/^# \[Leetcode Solutions - Total: .*?\]\(.*?\).*$/m, `# [Leetcode Solutions - Total: ${solved.All}](${profileUrl})`);
 
+                      // --- Replace Stats Block ---
                       readmeContent = readmeContent.replace(/^- Total Solved:.*$/m, `- Total Solved: ${solved.All}/${total.All} (${percentages.All}%)`);
                       readmeContent = readmeContent.replace(/^- Easy Solved:.*$/m, `- Easy Solved: ${solved.Easy}/${total.Easy} (${percentages.Easy}%)`);
                       readmeContent = readmeContent.replace(/^- Medium Solved:.*$/m, `- Medium Solved: ${solved.Medium}/${total.Medium} (${percentages.Medium}%)`);
@@ -101,17 +104,21 @@ jobs:
                       readmeContent = readmeContent.replace(/^- Acceptance Rate:.*$/m, `- Acceptance Rate: ${acceptanceRate}%`);
                       readmeContent = readmeContent.replace(/^_Last Updated .*$/m, `_Last Updated ${dateStr}_`);
 
+                      // --- Replace Difficulty Headers ---
                       readmeContent = readmeContent.replace(/^## Hard Problems - \d+\/\d+$/m, `## Hard Problems - ${solved.Hard}/${total.Hard}`);
                       readmeContent = readmeContent.replace(/^## Medium Problems - \d+\/\d+$/m, `## Medium Problems - ${solved.Medium}/${total.Medium}`);
                       readmeContent = readmeContent.replace(/^## Easy Problems - \d+\/\d+$/m, `## Easy Problems - ${solved.Easy}/${total.Easy}`);
 
+                      // --- Remove Beats Lines ---
                       readmeContent = readmeContent.replace(/^Beats: .* users$/gm, '');
                       readmeContent = readmeContent.replace(/^Beats: .* of users$/gm, '');
 
-                      readmeContent = readmeContent.replace(/\n{3,}/g, '\n\n');
-                      readmeContent = readmeContent.replace(/\n\n(\#\#\#\s+(Easy|Medium|Hard) Problems)/g, '\n$1');
-                      readmeContent = readmeContent.replace(/\n\n(\#\#\s+(Easy|Medium|Hard) Problems)/g, '\n$1');
+                      // --- Clean Up Spacing ---
+                      readmeContent = readmeContent.replace(/\n{3,}/g, '\n\n'); // Reduce multiple blank lines
+                      readmeContent = readmeContent.replace(/\n\n(\#\#\#\s+(Easy|Medium|Hard) Problems)/g, '\n$1'); // Adjust space before H3
+                      readmeContent = readmeContent.replace(/\n\n(\#\#\s+(Easy|Medium|Hard) Problems)/g, '\n$1'); // Adjust space before H2
 
+                      // --- Write File if Changed ---
                       if (readmeContent !== originalContent) {
                         fs.writeFileSync(readmePath, readmeContent, 'utf8');
                         console.log('README stats and headers updated successfully.');
