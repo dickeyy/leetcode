@@ -1,4 +1,4 @@
-# [Leetcode Solutions - Total: 7](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 78](https://leetcode.com/dickey)
 
 [![wakatime](https://wakatime.com/badge/github/dickeyy/leetcode.svg)](https://wakatime.com/badge/github/dickeyy/leetcode)
 
