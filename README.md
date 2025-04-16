@@ -14,6 +14,7 @@ _Last Updated 4/16/25_
 - Rank: 1,381,607
 - Acceptance Rate: 63.52%
 ```
+
 ## Hard Problems - 4/822
 
 | #    | Title                                                                                    | Solution(s)              |
@@ -22,6 +23,7 @@ _Last Updated 4/16/25_
 | 65   | [Valid Number](https://leetcode.com/problems/valid-number/)                              | [TS](/hard/65/65.ts)     |
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                     | [TS](/hard/458/458.ts)   |
 | 2097 | [Valid Arrangement](https://leetcode.com/problems/valid-arrangement)                     | [Go](/hard/2097/main.go) |
+
 ## Medium Problems - 20/1825
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -36,6 +38,7 @@ _Last Updated 4/16/25_
 | 50   | [Pow(x,n)](https://leetcode.com/problems/powx-n)                                                                                                       | [TS](/medium/50/50.ts)     |
 | 151  | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)                                                                   | [Go](/medium/151/main.go)  |
 | 176  | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary)                                                                           | [SQL](/medium/176/176.sql) |
+| 238  | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)                                                             | [Go](/medium/238/main.go)  |
 | 443  | [String Compression](https://leetcode.com/problems/string-compression)                                                                                 | [Go](/medium/443/main.go)  |
 | 525  | [Contiguous Array](https://leetcode.com/problems/contiguous-array)                                                                                     | [TS](/medium/525/525.ts)   |
 | 535  | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)                                                                  | [TS](/medium/535/535.ts)   |
@@ -47,6 +50,7 @@ _Last Updated 4/16/25_
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396/2396.ts) |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442/2442.ts) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
+
 ## Easy Problems - 57/873
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
