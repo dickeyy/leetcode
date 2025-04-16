@@ -14,6 +14,7 @@ _Last Updated 4/16/25_
 - Rank: 1,420,315
 - Acceptance Rate: 62.34%
 ```
+
 ## Hard Problems - 4/822
 
 | #    | Title                                                                                    | Solution(s)              |
@@ -22,6 +23,7 @@ _Last Updated 4/16/25_
 | 65   | [Valid Number](https://leetcode.com/problems/valid-number/)                              | [TS](/hard/65/65.ts)     |
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                     | [TS](/hard/458/458.ts)   |
 | 2097 | [Valid Arrangement](https://leetcode.com/problems/valid-arrangement)                     | [Go](/hard/2097/main.go) |
+
 ## Medium Problems - 19/1825
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -45,6 +47,7 @@ _Last Updated 4/16/25_
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396/2396.ts) |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442/2442.ts) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
+
 ## Easy Problems - 54/873
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
@@ -86,6 +89,7 @@ _Last Updated 4/16/25_
 | 1768  | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately)                                                                       | [TS](/easy/1768/1768.ts)                                                           |
 | 1791  | [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph)                                                                       | [TS](/easy/1791/1791.ts)                                                           |
 | 1859  | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence)                                                                                 | [JS](/easy/1859/1859.js)                                                           |
+| 1863  | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals)                                                                 | [Go](/easy/1863/main.go)                                                           |
 | 1903  | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string)                                                                 | [TS](/easy/1903/1903.ts)                                                           |
 | 1920  | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation)                                                                 | [Go](/easy/1920/1920/main.go)                                                      |
 | 1929  | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                                                                            | [TS](/easy/1929/1929.ts)                                                           |
