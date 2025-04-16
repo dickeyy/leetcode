@@ -152,7 +152,7 @@ jobs:
 
                   // Execute the main function
                   fetchStatsAndUpdateReadme();
-                  EOF # End of the inline Node.js script
+                  EOF
 
             # Step 4: Commit and push the changes if the README was modified
             - name: Commit and Push Changes
