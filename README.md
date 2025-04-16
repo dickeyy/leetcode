@@ -38,6 +38,7 @@ _Last Updated 4/16/25_
 | 50   | [Pow(x,n)](https://leetcode.com/problems/powx-n)                                                                                                       | [TS](/medium/50/50.ts)     |
 | 151  | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)                                                                   | [Go](/medium/151/main.go)  |
 | 176  | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary)                                                                           | [SQL](/medium/176/176.sql) |
+| 443  | [String Compression](https://leetcode.com/problems/string-compression)                                                                                 | [Go](/medium/443/main.go)  |
 | 525  | [Contiguous Array](https://leetcode.com/problems/contiguous-array)                                                                                     | [TS](/medium/525/525.ts)   |
 | 535  | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)                                                                  | [TS](/medium/535/535.ts)   |
 | 678  | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/?envType=daily-question&envId=2024-04-07)                | [TS](/medium/678/678.ts)   |
