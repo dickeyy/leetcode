@@ -16,24 +16,18 @@ jobs:
         steps:
             - name: Checkout Repo
               uses: actions/checkout@v4
-              # Important: Fetch full history if needed for commit action,
-              # but usually not required for just updating a file based on external data.
-              # fetch-depth: 0 # Uncomment if the commit action has issues
 
             - name: Set up Node.js
               uses: actions/setup-node@v4
               with:
-                  node-version: "20" # Or any recent LTS version
-
-            - name: Install Dependencies
-              run: npm install node-fetch # Using node-fetch for simplicity
+                  node-version: "20" # Node 20 has built-in fetch
 
             - name: Fetch LeetCode Stats and Update README
               env:
-                  LEETCODE_USERNAME: dickey # Your LeetCode username
+                  LEETCODE_USERNAME: dickey
               run: |
                   node << 'EOF'
-                  const fetch = require('node-fetch');
+                  // REMOVED: const fetch = require('node-fetch'); - Use global fetch
                   const fs = require('fs');
                   const path = require('path');
 
@@ -45,6 +39,7 @@ jobs:
                   async function fetchStatsAndUpdateReadme() {
                     try {
                       console.log(`Fetching stats for ${username} from ${apiUrl}`);
+                      // Now using the globally available fetch function
                       const response = await fetch(apiUrl);
 
                       if (!response.ok) {
@@ -131,10 +126,12 @@ jobs:
                         fs.writeFileSync(readmePath, readmeContent, 'utf8');
                         console.log('README stats updated successfully.');
                         // Set an output/env var to indicate changes were made for the commit step
-                        console.log("::set-output name=changes_made::true");
+                        // Use GITHUB_OUTPUT environment file
+                        fs.appendFileSync(process.env.GITHUB_OUTPUT, `changes_made=true\n`);
                       } else {
                         console.log('No changes detected in stats. README not updated.');
-                        console.log("::set-output name=changes_made::false");
+                         // Use GITHUB_OUTPUT environment file
+                        fs.appendFileSync(process.env.GITHUB_OUTPUT, `changes_made=false\n`);
                       }
 
                     } catch (error) {
