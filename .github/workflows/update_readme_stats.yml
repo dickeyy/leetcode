@@ -1,58 +1,68 @@
 name: Update LeetCode Stats in README
 
+# Trigger the workflow on push events to the main branch
+# and allow manual triggering from the Actions tab
 on:
     push:
         branches:
-            - main # Or 'master', depending on your default branch name
-    workflow_dispatch: # Allows manual triggering from the Actions tab
+            - main # Adjust if your default branch is named 'master'
+    workflow_dispatch:
 
 jobs:
     update-stats:
+        # Use the latest Ubuntu runner
         runs-on: ubuntu-latest
+
+        # Grant write permissions to the job to allow committing changes
         permissions:
-            # Need write permissions to commit changes to the repo
             contents: write
 
         steps:
+            # Step 1: Check out the repository code
             - name: Checkout Repo
               uses: actions/checkout@v4
 
+            # Step 2: Set up Node.js environment (version 20 includes global fetch)
             - name: Set up Node.js
               uses: actions/setup-node@v4
               with:
-                  node-version: "20" # Node 20 has built-in fetch
+                  node-version: "20"
 
+            # Step 3: Fetch stats from the API and update the README file
             - name: Fetch LeetCode Stats and Update README
+              # Set the LeetCode username as an environment variable
               env:
                   LEETCODE_USERNAME: dickey
+              # Give this step an ID to reference its outputs later
+              id: update_readme
+              # Run an inline Node.js script
               run: |
                   node << 'EOF'
-                  // REMOVED: const fetch = require('node-fetch'); - Use global fetch
                   const fs = require('fs');
-                  const path = require('path');
+                  const path = require('path'); // Still useful for path operations if needed
 
                   const username = process.env.LEETCODE_USERNAME;
-                  // Adjust if your README is not in the root or workflow is elsewhere
-                  const readmePath = path.join(__dirname, '..', 'README.md');
+                  // Correct path to README.md in the repository root
+                  const readmePath = 'README.md';
                   const apiUrl = `https://leetcode-stats-api.herokuapp.com/${username}`;
 
                   async function fetchStatsAndUpdateReadme() {
                     try {
                       console.log(`Fetching stats for ${username} from ${apiUrl}`);
-                      // Now using the globally available fetch function
+                      // Use the built-in fetch function (available in Node 18+)
                       const response = await fetch(apiUrl);
 
+                      // Handle potential API errors
                       if (!response.ok) {
-                        // Check for specific API errors if documented, otherwise generic error
                         if (response.status === 404) {
-                           throw new Error(`User '${username}' not found on LeetCode or API error.`);
+                           throw new Error(`User '${username}' not found on LeetCode or API error (Status 404).`);
                         }
                         throw new Error(`API request failed with status: ${response.status}`);
                       }
 
                       const stats = await response.json();
 
-                      // --- Validate expected fields ---
+                      // Validate the structure of the API response
                       const requiredFields = [
                           'status', 'message', 'totalSolved', 'totalQuestions',
                           'easySolved', 'totalEasy', 'mediumSolved', 'totalMedium',
@@ -65,8 +75,7 @@ jobs:
 
                       console.log("Successfully fetched stats:", JSON.stringify(stats, null, 2));
 
-
-                      // --- Prepare Stats ---
+                      // --- Prepare Stats Data ---
                       const solved = {
                         All: stats.totalSolved,
                         Easy: stats.easySolved,
@@ -81,8 +90,9 @@ jobs:
                         Hard: stats.totalHard,
                       };
 
+                      // Format rank and acceptance rate
                       const rank = stats.ranking > 0 ? stats.ranking.toLocaleString() : "N/A";
-                      const acceptanceRate = stats.acceptanceRate != null ? stats.acceptanceRate.toFixed(2) : "N/A"; // Format to 2 decimal places
+                      const acceptanceRate = stats.acceptanceRate != null ? stats.acceptanceRate.toFixed(2) : "N/A";
 
                       // Calculate percentages
                       const perc = (s, t) => (t > 0 ? ((s / t) * 100).toFixed(2) : "0.00");
@@ -93,16 +103,17 @@ jobs:
                         Hard: perc(solved.Hard, total.Hard),
                       };
 
-                      // --- Update README ---
+                      // --- Update README Content ---
+                      // Read the current README content
                       let readmeContent = fs.readFileSync(readmePath, 'utf8');
-                      let originalContent = readmeContent; // Store original content for comparison
+                      // Store the original content to check for changes later
+                      let originalContent = readmeContent;
 
-                      // Get current date
+                      // Get current date in MM/DD/YY format
                       const now = new Date();
-                      // Format as MM/DD/YY (e.g., 4/15/25)
                       const dateStr = `${now.getMonth() + 1}/${now.getDate()}/${String(now.getFullYear()).slice(-2)}`;
 
-                      // Replace stats lines using Regex (ensure patterns match your README)
+                      // Replace stat lines using regular expressions (multi-line mode)
                       readmeContent = readmeContent.replace(/^- Total Solved:.*$/m, `- Total Solved: ${solved.All}/${total.All} (${percentages.All}%)`);
                       readmeContent = readmeContent.replace(/^- Easy Solved:.*$/m, `- Easy Solved: ${solved.Easy}/${total.Easy} (${percentages.Easy}%)`);
                       readmeContent = readmeContent.replace(/^- Medium Solved:.*$/m, `- Medium Solved: ${solved.Medium}/${total.Medium} (${percentages.Medium}%)`);
@@ -111,48 +122,51 @@ jobs:
                       readmeContent = readmeContent.replace(/^- Acceptance Rate:.*$/m, `- Acceptance Rate: ${acceptanceRate}%`);
                       readmeContent = readmeContent.replace(/^_Last Updated .*$/m, `_Last Updated ${dateStr}_`);
 
-                      // Remove the specific "Beats: X%" lines if they exist, as this API doesn't provide them
-                      readmeContent = readmeContent.replace(/^Beats: .* users$/gm, ''); // Remove from Hard section (added g flag)
-                      readmeContent = readmeContent.replace(/^Beats: .* users$/gm, ''); // Remove from Medium section (added g flag)
-                      readmeContent = readmeContent.replace(/^Beats: .* of users$/gm, ''); // Remove from Easy section (added g flag, adjust pattern if needed)
+                      // Remove "Beats: X%" lines globally (g flag) as the API doesn't provide this
+                      readmeContent = readmeContent.replace(/^Beats: .* users$/gm, '');
+                      readmeContent = readmeContent.replace(/^Beats: .* of users$/gm, ''); // Catch variations like "of users"
 
-                      // Clean up potential extra blank lines left by removing the "Beats" lines
-                      readmeContent = readmeContent.replace(/\n{3,}/g, '\n\n'); // Replace 3 or more newlines with just 2
-                      readmeContent = readmeContent.replace(/\n\n(\#\#\#\s+(Easy|Medium|Hard) Problems)/g, '\n$1'); // Adjust spacing before headers
-
+                      // Clean up potential extra blank lines created by removing lines
+                      readmeContent = readmeContent.replace(/\n{3,}/g, '\n\n'); // Replace 3+ newlines with 2
+                      // Adjust spacing before section headers if needed
+                      readmeContent = readmeContent.replace(/\n\n(\#\#\#\s+(Easy|Medium|Hard) Problems)/g, '\n$1');
 
                       // --- Write README only if content changed ---
                       if (readmeContent !== originalContent) {
                         fs.writeFileSync(readmePath, readmeContent, 'utf8');
                         console.log('README stats updated successfully.');
-                        // Set an output/env var to indicate changes were made for the commit step
-                        // Use GITHUB_OUTPUT environment file
+                        // Set output variable indicating changes were made using GITHUB_OUTPUT env file
                         fs.appendFileSync(process.env.GITHUB_OUTPUT, `changes_made=true\n`);
                       } else {
                         console.log('No changes detected in stats. README not updated.');
-                         // Use GITHUB_OUTPUT environment file
+                        // Set output variable indicating no changes were made
                         fs.appendFileSync(process.env.GITHUB_OUTPUT, `changes_made=false\n`);
                       }
 
                     } catch (error) {
+                      // Log any errors and exit with a non-zero code to fail the workflow step
                       console.error('Failed to fetch LeetCode stats or update README:', error);
-                      process.exit(1); // Exit with error code to fail the workflow step
+                      process.exit(1);
                     }
                   }
 
+                  // Execute the main function
                   fetchStatsAndUpdateReadme();
-                  EOF
-              id: update_readme # Give the step an ID to reference its outputs
+                  EOF # End of the inline Node.js script
 
+            # Step 4: Commit and push the changes if the README was modified
             - name: Commit and Push Changes
-              # Only run this step if the previous step actually made changes
+              # Conditionally run this step based on the output of the previous step
               if: steps.update_readme.outputs.changes_made == 'true'
+              # Use a popular action for auto-committing changes
               uses: stefanzweifel/git-auto-commit-action@v5
               with:
+                  # Configure the commit details
                   commit_message: "chore: Update LeetCode stats in README"
                   commit_user_name: "github-actions[bot]"
                   commit_user_email: "github-actions[bot]@users.noreply.github.com"
                   commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
-                  file_pattern: "README.md" # Only commit README.md
-                  # Optional: Add skip_dirty_check: true if you encounter issues with the action thinking the repo is dirty
+                  # Specify the file pattern to commit (only the README)
+                  file_pattern: "README.md"
+                  # Optional: uncomment if you face issues with the action detecting a dirty repo
                   # skip_dirty_check: true
