@@ -1,11 +1,5 @@
 package main
 
-import "github.com/dickeyy/leetcode/utils"
-
-func main() {
-	utils.AssertEqual(0, strStr("sadbutsad", "sad"), 1)
-}
-
 /*
  *   Stats:
  *   Runtime: <1ms (beats 100.00% of Go solutions)

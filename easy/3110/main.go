@@ -1,17 +1,10 @@
 package main
 
-import "github.com/dickeyy/leetcode/utils"
-
 /*
  *   Stats:
  *   Runtime: <1ms (beats 100.00% of Go solutions)
  *   Memory: 4.09mb (beats 10.49% of Go solutions)
  */
-
-func main() {
-	utils.AssertEqual(13, scoreOfString("hello"), 1)
-	utils.AssertEqual(50, scoreOfString("zaz"), 2)
-}
 
 func scoreOfString(s string) int {
 	sum := 0

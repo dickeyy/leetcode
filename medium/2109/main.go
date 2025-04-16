@@ -2,8 +2,6 @@ package main
 
 import (
 	"strings"
-
-	"github.com/dickeyy/leetcode/utils"
 )
 
 /*
@@ -11,10 +9,6 @@ import (
  *   Runtime: 74ms (beats 5.71% of Go solutions)
  *   Memory: 30.15mb (beats 9.76% of Go solutions)
  */
-
-func main() {
-	utils.AssertEqual("Hi Im Here", addSpaces("HiImHere", []int{2, 4, 8}), 1)
-}
 
 func addSpaces(s string, spaces []int) string {
 	spaceMap := make(map[int]bool)

@@ -1,11 +1,5 @@
 package main
 
-import "github.com/dickeyy/leetcode/utils"
-
-func main() {
-	utils.AssertEqual([][]int{{1, 3}, {3, 2}, {2, 1}}, validArrangement([][]int{{1, 3}, {3, 2}, {2, 1}}), 1)
-}
-
 /*
  *   Stats:
  *   Runtime: 361ms (beats 5.24% of Go solutions) :)

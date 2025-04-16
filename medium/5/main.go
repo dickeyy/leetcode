@@ -1,19 +1,10 @@
 package main
 
-import (
-	"github.com/dickeyy/leetcode/utils"
-)
-
 /*
  *   Stats:
  *   Runtime: <3ms (beats 63.08% of Go solutions)
  *   Memory: 4.42mb (beats 39.66% of Go solutions)
  */
-
-func main() {
-	utils.AssertEqual("bab", longestPalindrome("babad"), 1)
-	utils.AssertEqual("bb", longestPalindrome("cbbd"), 2)
-}
 
 func longestPalindrome(s string) string {
 	if len(s) < 2 {
