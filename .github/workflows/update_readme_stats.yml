@@ -30,14 +30,14 @@ jobs:
 
             - name: Fetch LeetCode Stats and Update README
               env:
-                  LEETCODE_USERNAME: dickeyy # Your LeetCode username
+                  LEETCODE_USERNAME: dickey # Your LeetCode username
               run: |
                   node << 'EOF'
                   const fetch = require('node-fetch');
                   const fs = require('fs');
                   const path = require('path');
 
-                  const username = dickey;
+                  const username = process.env.LEETCODE_USERNAME;
                   // Adjust if your README is not in the root or workflow is elsewhere
                   const readmePath = path.join(__dirname, '..', 'README.md');
                   const apiUrl = `https://leetcode-stats-api.herokuapp.com/${username}`;
