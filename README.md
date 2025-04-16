@@ -1,4 +1,4 @@
-# [Leetcode Solutions - Total: 77](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 7](https://leetcode.com/dickey)
 
 [![wakatime](https://wakatime.com/badge/github/dickeyy/leetcode.svg)](https://wakatime.com/badge/github/dickeyy/leetcode)
 
@@ -7,13 +7,14 @@
 _Last Updated 4/16/25_
 
 ```
-- Total Solved: 78/3520 (2.22%)
-- Easy Solved: 55/873 (6.30%)
+- Total Solved: 7/3520 (2.22%)
+- Easy Solved: 5/873 (6.30%)
 - Medium Solved: 19/1825 (1.04%)
 - Hard Solved: 4/822 (0.49%)
 - Rank: 1,420,315
 - Acceptance Rate: 62.58%
 ```
+
 ## Hard Problems - 4/822
 
 | #    | Title                                                                                    | Solution(s)              |
@@ -22,6 +23,7 @@ _Last Updated 4/16/25_
 | 65   | [Valid Number](https://leetcode.com/problems/valid-number/)                              | [TS](/hard/65/65.ts)     |
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                     | [TS](/hard/458/458.ts)   |
 | 2097 | [Valid Arrangement](https://leetcode.com/problems/valid-arrangement)                     | [Go](/hard/2097/main.go) |
+
 ## Medium Problems - 19/1825
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -45,6 +47,7 @@ _Last Updated 4/16/25_
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396/2396.ts) |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442/2442.ts) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
+
 ## Easy Problems - 55/873
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
