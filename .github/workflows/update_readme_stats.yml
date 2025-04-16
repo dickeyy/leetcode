@@ -32,14 +32,14 @@ jobs:
             - name: Fetch LeetCode Stats and Update README
               # Set the LeetCode username as an environment variable
               env:
-                  LEETCODE_USERNAME: dickey
+                  LEETCODE_USERNAME: dickey # Using 'dickey' as requested
               # Give this step an ID to reference its outputs later
               id: update_readme
               # Run an inline Node.js script
               run: |
                   node << 'EOF'
                   const fs = require('fs');
-                  const path = require('path'); // Still useful for path operations if needed
+                  const path = require('path');
 
                   const username = process.env.LEETCODE_USERNAME;
                   // Correct path to README.md in the repository root
@@ -113,7 +113,7 @@ jobs:
                       const now = new Date();
                       const dateStr = `${now.getMonth() + 1}/${now.getDate()}/${String(now.getFullYear()).slice(-2)}`;
 
-                      // Replace stat lines using regular expressions (multi-line mode)
+                      // --- Replace Stats Block Lines ---
                       readmeContent = readmeContent.replace(/^- Total Solved:.*$/m, `- Total Solved: ${solved.All}/${total.All} (${percentages.All}%)`);
                       readmeContent = readmeContent.replace(/^- Easy Solved:.*$/m, `- Easy Solved: ${solved.Easy}/${total.Easy} (${percentages.Easy}%)`);
                       readmeContent = readmeContent.replace(/^- Medium Solved:.*$/m, `- Medium Solved: ${solved.Medium}/${total.Medium} (${percentages.Medium}%)`);
@@ -122,23 +122,35 @@ jobs:
                       readmeContent = readmeContent.replace(/^- Acceptance Rate:.*$/m, `- Acceptance Rate: ${acceptanceRate}%`);
                       readmeContent = readmeContent.replace(/^_Last Updated .*$/m, `_Last Updated ${dateStr}_`);
 
-                      // Remove "Beats: X%" lines globally (g flag) as the API doesn't provide this
-                      readmeContent = readmeContent.replace(/^Beats: .* users$/gm, '');
-                      readmeContent = readmeContent.replace(/^Beats: .* of users$/gm, ''); // Catch variations like "of users"
+                      // --- Replace Header Count Lines ---
+                      // Regex explanation:
+                      // ^                     - Start of the line
+                      // ## (Hard|Medium|Easy) Problems -  - Literal text including the header level and spacing
+                      // \d+\/\d+              - Matches the existing "number/number" pattern
+                      // $                     - End of the line
+                      // m                     - Multiline flag (so ^ and $ match start/end of lines)
+                      readmeContent = readmeContent.replace(/^## Hard Problems - \d+\/\d+$/m, `## Hard Problems - ${solved.Hard}/${total.Hard}`);
+                      readmeContent = readmeContent.replace(/^## Medium Problems - \d+\/\d+$/m, `## Medium Problems - ${solved.Medium}/${total.Medium}`);
+                      readmeContent = readmeContent.replace(/^## Easy Problems - \d+\/\d+$/m, `## Easy Problems - ${solved.Easy}/${total.Easy}`);
 
-                      // Clean up potential extra blank lines created by removing lines
-                      readmeContent = readmeContent.replace(/\n{3,}/g, '\n\n'); // Replace 3+ newlines with 2
-                      // Adjust spacing before section headers if needed
-                      readmeContent = readmeContent.replace(/\n\n(\#\#\#\s+(Easy|Medium|Hard) Problems)/g, '\n$1');
+                      // --- Remove "Beats: X%" lines ---
+                      readmeContent = readmeContent.replace(/^Beats: .* users$/gm, '');
+                      readmeContent = readmeContent.replace(/^Beats: .* of users$/gm, '');
+
+                      // --- Clean up extra blank lines ---
+                      readmeContent = readmeContent.replace(/\n{3,}/g, '\n\n');
+                      readmeContent = readmeContent.replace(/\n\n(\#\#\#\s+(Easy|Medium|Hard) Problems)/g, '\n$1'); // Adjust spacing before H3 headers if needed
+                      readmeContent = readmeContent.replace(/\n\n(\#\#\s+(Easy|Medium|Hard) Problems)/g, '\n$1'); // Adjust spacing before H2 headers
+
 
                       // --- Write README only if content changed ---
                       if (readmeContent !== originalContent) {
                         fs.writeFileSync(readmePath, readmeContent, 'utf8');
-                        console.log('README stats updated successfully.');
+                        console.log('README stats and headers updated successfully.');
                         // Set output variable indicating changes were made using GITHUB_OUTPUT env file
                         fs.appendFileSync(process.env.GITHUB_OUTPUT, `changes_made=true\n`);
                       } else {
-                        console.log('No changes detected in stats. README not updated.');
+                        console.log('No changes detected in stats or headers. README not updated.');
                         // Set output variable indicating no changes were made
                         fs.appendFileSync(process.env.GITHUB_OUTPUT, `changes_made=false\n`);
                       }
@@ -162,7 +174,7 @@ jobs:
               uses: stefanzweifel/git-auto-commit-action@v5
               with:
                   # Configure the commit details
-                  commit_message: "chore: Update LeetCode stats in README"
+                  commit_message: "chore: Update LeetCode stats and headers in README" # Updated commit message
                   commit_user_name: "github-actions[bot]"
                   commit_user_email: "github-actions[bot]@users.noreply.github.com"
                   commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
