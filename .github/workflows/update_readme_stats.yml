@@ -91,6 +91,8 @@ jobs:
                       const now = new Date();
                       const dateStr = `${now.getMonth() + 1}/${now.getDate()}/${String(now.getFullYear()).slice(-2)}`;
 
+                      readmeContent = readmeContent.replace(/^# [Leetcode Solutions - Total: \d+](https:\/\/leetcode\.com\/dickey).*$/m, `# [Leetcode Solutions - Total: ${solved.All}/${total.All} (${percentages.All}%)](https://leetcode.com/dickey)`);
+
                       readmeContent = readmeContent.replace(/^- Total Solved:.*$/m, `- Total Solved: ${solved.All}/${total.All} (${percentages.All}%)`);
                       readmeContent = readmeContent.replace(/^- Easy Solved:.*$/m, `- Easy Solved: ${solved.Easy}/${total.Easy} (${percentages.Easy}%)`);
                       readmeContent = readmeContent.replace(/^- Medium Solved:.*$/m, `- Medium Solved: ${solved.Medium}/${total.Medium} (${percentages.Medium}%)`);
