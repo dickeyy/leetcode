@@ -14,6 +14,7 @@ _Last Updated 4/16/25_
 - Rank: 1,381,607
 - Acceptance Rate: 63.58%
 ```
+
 ## Hard Problems - 4/822
 
 | #    | Title                                                                                    | Solution(s)              |
@@ -22,6 +23,7 @@ _Last Updated 4/16/25_
 | 65   | [Valid Number](https://leetcode.com/problems/valid-number/)                              | [TS](/hard/65/65.ts)     |
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                     | [TS](/hard/458/458.ts)   |
 | 2097 | [Valid Arrangement](https://leetcode.com/problems/valid-arrangement)                     | [Go](/hard/2097/main.go) |
+
 ## Medium Problems - 22/1825
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -48,6 +50,7 @@ _Last Updated 4/16/25_
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396/2396.ts) |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442/2442.ts) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
+
 ## Easy Problems - 57/873
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
@@ -95,6 +98,7 @@ _Last Updated 4/16/25_
 | 1920  | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation)                                                                 | [Go](/easy/1920/1920/main.go)                                                      |
 | 1929  | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                                                                            | [TS](/easy/1929/1929.ts)                                                           |
 | 2011  | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations)                   | [TS](/easy/2011/2011.ts) [Python](/easy/2011/2011.py) [Go](/easy/2011/main.go)     |
+| 2176  | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array)                                   | [Go](/easy/2176/main.go)                                                           |
 | 2185  | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)                                                    | [TS](/easy/2185/2185.ts)                                                           |
 | 2215  | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)                                                      | [TS](/easy/2215/2215.ts)                                                           |
 | 2235  | [Add Two Integers](https://leetcode.com/problems/add-two-integers/)                                                                                        | [Go](/easy/2235/main.go)                                                           |
