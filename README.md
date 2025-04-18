@@ -1,20 +1,19 @@
-# [Leetcode Solutions - Total: 84](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 85](https://leetcode.com/dickey)
 
 [![wakatime](https://wakatime.com/badge/github/dickeyy/leetcode.svg)](https://wakatime.com/badge/github/dickeyy/leetcode)
 
 ## Stats
 
-_Last Updated 4/17/25_
+_Last Updated 4/18/25_
 
 ```
-- Total Solved: 84/3521 (2.39%)
+- Total Solved: 85/3521 (2.41%)
 - Easy Solved: 58/873 (6.64%)
-- Medium Solved: 22/1826 (1.20%)
+- Medium Solved: 23/1826 (1.26%)
 - Hard Solved: 4/822 (0.49%)
-- Rank: 1,333,188
-- Acceptance Rate: 63.80%
+- Rank: 1,322,359
+- Acceptance Rate: 64.24%
 ```
-
 ## Hard Problems - 4/822
 
 | #    | Title                                                                                    | Solution(s)              |
@@ -23,8 +22,7 @@ _Last Updated 4/17/25_
 | 65   | [Valid Number](https://leetcode.com/problems/valid-number/)                              | [TS](/hard/65/65.ts)     |
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                     | [TS](/hard/458/458.ts)   |
 | 2097 | [Valid Arrangement](https://leetcode.com/problems/valid-arrangement)                     | [Go](/hard/2097/main.go) |
-
-## Medium Problems - 22/1826
+## Medium Problems - 23/1826
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------- |
@@ -51,7 +49,6 @@ _Last Updated 4/17/25_
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396/2396.ts) |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442/2442.ts) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
-
 ## Easy Problems - 58/873
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
