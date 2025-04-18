@@ -14,6 +14,7 @@ _Last Updated 4/18/25_
 - Rank: 1,322,359
 - Acceptance Rate: 64.24%
 ```
+
 ## Hard Problems - 4/822
 
 | #    | Title                                                                                    | Solution(s)              |
@@ -22,6 +23,7 @@ _Last Updated 4/18/25_
 | 65   | [Valid Number](https://leetcode.com/problems/valid-number/)                              | [TS](/hard/65/65.ts)     |
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                     | [TS](/hard/458/458.ts)   |
 | 2097 | [Valid Arrangement](https://leetcode.com/problems/valid-arrangement)                     | [Go](/hard/2097/main.go) |
+
 ## Medium Problems - 23/1826
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -49,6 +51,7 @@ _Last Updated 4/18/25_
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396/2396.ts) |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442/2442.ts) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
+
 ## Easy Problems - 58/873
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
@@ -66,6 +69,7 @@ _Last Updated 4/18/25_
 | 66    | [Plus One](https://leetcode.com/problems/plus-one)                                                                                                         | [JS](/easy/66/66.js)                                                               |
 | 67    | [Add Binary](https://leetcode.com/problems/add-binary)                                                                                                     | [Go](/easy/67/main.go)                                                             |
 | 125   | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)                                                                                         | [TS](/easy/125/125.ts)                                                             |
+| 136   | [Single Number](https://leetcode.com/problems/single-number)                                                                                               | [Go](/easy/136/main.go)                                                            |
 | 141   | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)                                                                                       | [TS](/easy/141/141.ts)                                                             |
 | 217   | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)                                                                                     | [JS](/easy/217/217.js)                                                             |
 | 268   | [Missing Number](https://leetcode.com/problems/missing-number)                                                                                             | [TS](/easy/268/268.ts)                                                             |
