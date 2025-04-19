@@ -14,6 +14,7 @@ _Last Updated 4/18/25_
 - Rank: 1,322,359
 - Acceptance Rate: 64.67%
 ```
+
 ## Hard Problems - 4/822
 
 | #    | Title                                                                                    | Solution(s)                                    |
@@ -22,6 +23,7 @@ _Last Updated 4/18/25_
 | 65   | [Valid Number](https://leetcode.com/problems/valid-number/)                              | [TS](/hard/65/65.ts)                           |
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                     | [TS](/hard/458/458.ts) [Go](/hard/458/main.go) |
 | 2097 | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)   | [Go](/hard/2097/main.go)                       |
+
 ## Medium Problems - 23/1826
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -49,6 +51,7 @@ _Last Updated 4/18/25_
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number)                                                               | [TS](/medium/2396/2396.ts) |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442/2442.ts) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
+
 ## Easy Problems - 59/873
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
@@ -74,6 +77,7 @@ _Last Updated 4/18/25_
 | 349   | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)                                                                     | [TS](/easy/349/349.ts)                                                             |
 | 412   | [FizzBuzz](https://leetcode.com/problems/fizz-buzz)                                                                                                        | [TS](/easy/412/412.ts)                                                             |
 | 476   | [Number Complement](https://leetcode.com/problems/number-complement)                                                                                       | [TS](/easy/476/476.ts)                                                             |
+| 704   | [Binary Search](https://leetcode.com/problems/binary-search)                                                                                               | [Go](/easy/704/main.go)                                                            |
 | 876   | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)                                                                       | [TS](/easy/876/876.ts)                                                             |
 | 1071  | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)                                                     | [TS](/easy/1071/1071.ts)                                                           |
 | 1108  | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address)                                                                           | [TS](/easy/1108/1108.ts)                                                           |
