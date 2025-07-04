@@ -1,5 +1,11 @@
 package main
 
+/*
+ *   Stats:
+ *   Runtime: 0ms (beats 100% of Go solutions) :)
+ *   Memory: 4.76mb (beats 50% of Go solutions) :)
+ */
+
 func kthCharacter(k int64, operations []int) byte {
 	n := len(operations)
 	lens := make([]int64, n+1)
