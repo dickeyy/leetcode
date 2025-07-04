@@ -1,21 +1,20 @@
-# [Leetcode Solutions - Total: 88](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 89](https://leetcode.com/dickey)
 
 [![wakatime](https://wakatime.com/badge/github/dickeyy/leetcode.svg)](https://wakatime.com/badge/github/dickeyy/leetcode)
 
 ## Stats
 
-_Last Updated 4/19/25_
+_Last Updated 7/4/25_
 
 ```
-- Total Solved: 88/3521 (2.50%)
-- Easy Solved: 60/873 (6.87%)
-- Medium Solved: 24/1826 (1.31%)
-- Hard Solved: 4/822 (0.49%)
-- Rank: 1,322,359
-- Acceptance Rate: 63.95%
+- Total Solved: 89/3601 (2.47%)
+- Easy Solved: 60/883 (6.80%)
+- Medium Solved: 24/1872 (1.28%)
+- Hard Solved: 5/846 (0.59%)
+- Rank: 1,348,732
+- Acceptance Rate: 64.16%
 ```
-
-## Hard Problems - 4/822
+## Hard Problems - 5/846
 
 | #    | Title                                                                                                                 | Solution(s)                                    |
 | ---- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
@@ -24,8 +23,7 @@ _Last Updated 4/19/25_
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                                                  | [TS](/hard/458/458.ts) [Go](/hard/458/main.go) |
 | 2097 | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)                                | [Go](/hard/2097/main.go)                       |
 | 3307 | [Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | [Go](/hard/3307/main.go)                       |
-
-## Medium Problems - 24/1826
+## Medium Problems - 24/1872
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------- |
@@ -53,8 +51,7 @@ _Last Updated 4/19/25_
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442/2442.ts) |
 | 2563 | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)                                                         | [Go](/medium/2563/main.go) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
-
-## Easy Problems - 60/873
+## Easy Problems - 60/883
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
 | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
