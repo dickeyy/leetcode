@@ -14,6 +14,7 @@ _Last Updated 7/11/25_
 - Rank: 1,346,512
 - Acceptance Rate: 64.57%
 ```
+
 ## Hard Problems - 5/848
 
 | #    | Title                                                                                                                 | Solution(s)                                    |
@@ -23,6 +24,7 @@ _Last Updated 7/11/25_
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                                                  | [TS](/hard/458/458.ts) [Go](/hard/458/main.go) |
 | 2097 | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)                                | [Go](/hard/2097/main.go)                       |
 | 3307 | [Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | [Go](/hard/3307/main.go)                       |
+
 ## Medium Problems - 25/1878
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -35,6 +37,7 @@ _Last Updated 7/11/25_
 | 15   | [3Sum](https://leetcode.com/problems/3sum)                                                                                                             | [TS](/medium/15/15.ts)     |
 | 22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses)                                                                             | [TS](/medium/22/22.ts)     |
 | 38   | [Count and Say](https://leetcode.com/problems/count-and-say)                                                                                           | [Go](/medium/38/main.go)   |
+| 39   | [Combination Sum](https://leetcode.com/problems/combination-sum)                                                                                       | [Go](/medium/39/main.go)   |
 | 46   | [Permutations](https://leetcode.com/problems/permutations)                                                                                             | [Go](/medium/46/main.go)   |
 | 50   | [Pow(x,n)](https://leetcode.com/problems/powx-n)                                                                                                       | [TS](/medium/50/50.ts)     |
 | 151  | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)                                                                   | [Go](/medium/151/main.go)  |
@@ -52,6 +55,7 @@ _Last Updated 7/11/25_
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442/2442.ts) |
 | 2563 | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)                                                         | [Go](/medium/2563/main.go) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
+
 ## Easy Problems - 61/885
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
