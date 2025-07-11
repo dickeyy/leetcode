@@ -14,6 +14,7 @@ _Last Updated 7/4/25_
 - Rank: 1,348,732
 - Acceptance Rate: 64.16%
 ```
+
 ## Hard Problems - 5/846
 
 | #    | Title                                                                                                                 | Solution(s)                                    |
@@ -23,6 +24,7 @@ _Last Updated 7/4/25_
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                                                  | [TS](/hard/458/458.ts) [Go](/hard/458/main.go) |
 | 2097 | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)                                | [Go](/hard/2097/main.go)                       |
 | 3307 | [Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | [Go](/hard/3307/main.go)                       |
+
 ## Medium Problems - 24/1872
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -51,6 +53,7 @@ _Last Updated 7/4/25_
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442/2442.ts) |
 | 2563 | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)                                                         | [Go](/medium/2563/main.go) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
+
 ## Easy Problems - 60/883
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
@@ -81,6 +84,7 @@ _Last Updated 7/4/25_
 | 1071  | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)                                                     | [TS](/easy/1071/1071.ts)                                                           |
 | 1108  | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address)                                                                           | [TS](/easy/1108/1108.ts)                                                           |
 | 1346  | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist)                                                           | [Go](/easy/1346/main.go)                                                           |
+| 1394  | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array)                                                             | [Go](/easy/1394/main.go)                                                           |
 | 1431  | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)                                        | [TS](/easy/1431/1431.ts)                                                           |
 | 1455  | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) | [Go](/easy/1455/main.go)                                                           |
 | 1464  | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array)                                   | [TS](/easy/1464/1464.ts)                                                           |
