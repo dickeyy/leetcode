@@ -14,6 +14,7 @@ _Last Updated 7/11/25_
 - Rank: 1,346,512
 - Acceptance Rate: 64.97%
 ```
+
 ## Hard Problems - 6/848
 
 | #    | Title                                                                                                                 | Solution(s)                                    |
@@ -24,6 +25,7 @@ _Last Updated 7/11/25_
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                                                  | [TS](/hard/458/458.ts) [Go](/hard/458/main.go) |
 | 2097 | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)                                | [Go](/hard/2097/main.go)                       |
 | 3307 | [Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | [Go](/hard/3307/main.go)                       |
+
 ## Medium Problems - 26/1878
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -54,6 +56,7 @@ _Last Updated 7/11/25_
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [TS](/medium/2442/2442.ts) |
 | 2563 | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)                                                         | [Go](/medium/2563/main.go) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
+
 ## Easy Problems - 61/885
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
@@ -119,3 +122,7 @@ _Last Updated 7/11/25_
 | 2942  | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character)                                                           | [TS](/easy/2942/2942.ts)                                                           |
 | 3005  | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency)                                               | [TS](/easy/3005/3005.ts)                                                           |
 | 3110  | [Score of a String](https://leetcode.com/problems/score-of-a-string/)                                                                                      | [Go](/easy/3110/main.go)                                                           |
+
+# License
+
+Licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
