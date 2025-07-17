@@ -14,6 +14,7 @@ _Last Updated 7/17/25_
 - Rank: 1,307,522
 - Acceptance Rate: 64.84%
 ```
+
 ## Hard Problems - 6/851
 
 | #    | Title                                                                                                                 | Solution(s)                                    |
@@ -24,6 +25,7 @@ _Last Updated 7/17/25_
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                                                  | [TS](/hard/458/458.ts) [Go](/hard/458/main.go) |
 | 2097 | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)                                | [Go](/hard/2097/main.go)                       |
 | 3307 | [Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | [Go](/hard/3307/main.go)                       |
+
 ## Medium Problems - 27/1881
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -38,6 +40,7 @@ _Last Updated 7/17/25_
 | 38   | [Count and Say](https://leetcode.com/problems/count-and-say)                                                                                           | [Go](/medium/38/main.go)   |
 | 39   | [Combination Sum](https://leetcode.com/problems/combination-sum)                                                                                       | [Go](/medium/39/main.go)   |
 | 46   | [Permutations](https://leetcode.com/problems/permutations)                                                                                             | [Go](/medium/46/main.go)   |
+| 48   | [Rotate Image](https://leetcode.com/problems/rotate-image)                                                                                             | [Go](/medium/48/main.go)   |
 | 50   | [Pow(x,n)](https://leetcode.com/problems/powx-n)                                                                                                       | [TS](/medium/50/50.ts)     |
 | 151  | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)                                                                   | [Go](/medium/151/main.go)  |
 | 176  | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary)                                                                           | [SQL](/medium/176/176.sql) |
@@ -55,6 +58,7 @@ _Last Updated 7/17/25_
 | 2563 | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)                                                         | [Go](/medium/2563/main.go) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
 | 3202 | [Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)                      | [Go](/medium/3202/main.go) |
+
 ## Easy Problems - 63/885
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
