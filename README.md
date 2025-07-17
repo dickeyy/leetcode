@@ -14,6 +14,7 @@ _Last Updated 7/17/25_
 - Rank: 1,307,522
 - Acceptance Rate: 65.03%
 ```
+
 ## Hard Problems - 6/851
 
 | #    | Title                                                                                                                 | Solution(s)                                    |
@@ -24,6 +25,7 @@ _Last Updated 7/17/25_
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                                                  | [TS](/hard/458/458.ts) [Go](/hard/458/main.go) |
 | 2097 | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)                                | [Go](/hard/2097/main.go)                       |
 | 3307 | [Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | [Go](/hard/3307/main.go)                       |
+
 ## Medium Problems - 28/1881
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -56,6 +58,7 @@ _Last Updated 7/17/25_
 | 2563 | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)                                                         | [Go](/medium/2563/main.go) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
 | 3202 | [Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)                      | [Go](/medium/3202/main.go) |
+
 ## Easy Problems - 63/885
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
@@ -72,6 +75,7 @@ _Last Updated 7/17/25_
 | 58    | [Length of Last Word](https://leetcode.com/problems/length-of-last-word)                                                                                   | [JS](/easy/58/58.js)                                                               |
 | 66    | [Plus One](https://leetcode.com/problems/plus-one)                                                                                                         | [JS](/easy/66/66.js)                                                               |
 | 67    | [Add Binary](https://leetcode.com/problems/add-binary)                                                                                                     | [Go](/easy/67/main.go)                                                             |
+| 69    | [Sqrt(x)](https://leetcode.com/problems/sqrtx)                                                                                                             | [Go](/easy/69/main.go)                                                             |
 | 125   | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)                                                                                         | [TS](/easy/125/125.ts)                                                             |
 | 136   | [Single Number](https://leetcode.com/problems/single-number)                                                                                               | [Go](/easy/136/main.go)                                                            |
 | 141   | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)                                                                                       | [TS](/easy/141/141.ts)                                                             |
