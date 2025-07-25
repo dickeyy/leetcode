@@ -14,6 +14,7 @@ _Last Updated 7/25/25_
 - Rank: 1,245,234
 - Acceptance Rate: 64.40%
 ```
+
 ## Hard Problems - 6/855
 
 | #    | Title                                                                                                                 | Solution(s)                                    |
@@ -24,6 +25,8 @@ _Last Updated 7/25/25_
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                                                  | [TS](/hard/458/458.ts) [Go](/hard/458/main.go) |
 | 2097 | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)                                | [Go](/hard/2097/main.go)                       |
 | 3307 | [Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | [Go](/hard/3307/main.go)                       |
+| 2322 | [Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)       | [Go](/hard/2322/main.go)                       |
+
 ## Medium Problems - 29/1885
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -57,6 +60,7 @@ _Last Updated 7/25/25_
 | 2563 | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)                                                         | [Go](/medium/2563/main.go) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
 | 3202 | [Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)                      | [Go](/medium/3202/main.go) |
+
 ## Easy Problems - 66/886
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
