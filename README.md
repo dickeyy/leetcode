@@ -14,6 +14,7 @@ _Last Updated 7/17/25_
 - Rank: 1,307,522
 - Acceptance Rate: 65.59%
 ```
+
 ## Hard Problems - 6/851
 
 | #    | Title                                                                                                                 | Solution(s)                                    |
@@ -24,6 +25,7 @@ _Last Updated 7/17/25_
 | 458  | [Poor Pigs](https://leetcode.com/problems/poor-pigs)                                                                  | [TS](/hard/458/458.ts) [Go](/hard/458/main.go) |
 | 2097 | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)                                | [Go](/hard/2097/main.go)                       |
 | 3307 | [Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | [Go](/hard/3307/main.go)                       |
+
 ## Medium Problems - 29/1881
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -57,6 +59,7 @@ _Last Updated 7/17/25_
 | 2563 | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)                                                         | [Go](/medium/2563/main.go) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
 | 3202 | [Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)                      | [Go](/medium/3202/main.go) |
+
 ## Easy Problems - 65/885
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
@@ -126,6 +129,7 @@ _Last Updated 7/17/25_
 | 3005  | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency)                                               | [TS](/easy/3005/3005.ts)                                                           |
 | 3110  | [Score of a String](https://leetcode.com/problems/score-of-a-string/)                                                                                      | [Go](/easy/3110/main.go)                                                           |
 | 3136  | [Valid Word](https://leetcode.com/problems/valid-word/)                                                                                                    | [Go](/easy/3136/main.go)                                                           |
+| 3487  | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion)                                     | [Go](/easy/3487/main.go)                                                           |
 
 # License
 
