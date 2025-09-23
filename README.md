@@ -1,4 +1,4 @@
-# [Leetcode Solutions - Total: 105](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 106](https://leetcode.com/dickey)
 
 [![wakatime](https://wakatime.com/badge/github/dickeyy/leetcode.svg)](https://wakatime.com/badge/github/dickeyy/leetcode)
 
@@ -7,14 +7,13 @@
 _Last Updated 9/23/25_
 
 ```
-- Total Solved: 105/3691 (2.84%)
-- Easy Solved: 67/901 (7.44%)
+- Total Solved: 106/3691 (2.87%)
+- Easy Solved: 68/901 (7.55%)
 - Medium Solved: 30/1920 (1.56%)
 - Hard Solved: 8/870 (0.92%)
 - Rank: 1,275,097
-- Acceptance Rate: 62.75%
+- Acceptance Rate: 62.93%
 ```
-
 ## Hard Problems - 8/870
 
 | #    | Title                                                                                                                 | Solution(s)                                    |
@@ -26,7 +25,6 @@ _Last Updated 9/23/25_
 | 2097 | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)                                | [Go](/hard/2097/main.go)                       |
 | 3307 | [Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | [Go](/hard/3307/main.go)                       |
 | 2322 | [Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)       | [Go](/hard/2322/main.go)                       |
-
 ## Medium Problems - 30/1920
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -61,8 +59,7 @@ _Last Updated 9/23/25_
 | 2563 | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)                                                         | [Go](/medium/2563/main.go) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
 | 3202 | [Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)                      | [Go](/medium/3202/main.go) |
-
-## Easy Problems - 67/901
+## Easy Problems - 68/901
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
 | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
