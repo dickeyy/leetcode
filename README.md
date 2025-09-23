@@ -14,6 +14,7 @@ _Last Updated 9/23/25_
 - Rank: 1,275,097
 - Acceptance Rate: 62.75%
 ```
+
 ## Hard Problems - 8/870
 
 | #    | Title                                                                                                                 | Solution(s)                                    |
@@ -25,6 +26,7 @@ _Last Updated 9/23/25_
 | 2097 | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)                                | [Go](/hard/2097/main.go)                       |
 | 3307 | [Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | [Go](/hard/3307/main.go)                       |
 | 2322 | [Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)       | [Go](/hard/2322/main.go)                       |
+
 ## Medium Problems - 30/1920
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -59,6 +61,7 @@ _Last Updated 9/23/25_
 | 2563 | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)                                                         | [Go](/medium/2563/main.go) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
 | 3202 | [Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)                      | [Go](/medium/3202/main.go) |
+
 ## Easy Problems - 67/901
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
@@ -112,6 +115,7 @@ _Last Updated 9/23/25_
 | 1903  | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string)                                                                 | [TS](/easy/1903/1903.ts)                                                           |
 | 1920  | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation)                                                                 | [Go](/easy/1920/1920/main.go)                                                      |
 | 1929  | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                                                                            | [TS](/easy/1929/1929.ts)                                                           |
+| 1935  | [Can Be Typed Words](https://leetcode.com/problems/can-be-typed-words/)                                                                                    | [Go](/easy/1935/main.go)                                                           |
 | 2011  | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations)                   | [TS](/easy/2011/2011.ts) [Python](/easy/2011/2011.py) [Go](/easy/2011/main.go)     |
 | 2176  | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array)                                   | [Go](/easy/2176/main.go)                                                           |
 | 2185  | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)                                                    | [TS](/easy/2185/2185.ts)                                                           |
