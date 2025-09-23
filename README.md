@@ -1,21 +1,20 @@
-# [Leetcode Solutions - Total: 103](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 104](https://leetcode.com/dickey)
 
 [![wakatime](https://wakatime.com/badge/github/dickeyy/leetcode.svg)](https://wakatime.com/badge/github/dickeyy/leetcode)
 
 ## Stats
 
-_Last Updated 9/11/25_
+_Last Updated 9/23/25_
 
 ```
-- Total Solved: 103/3677 (2.80%)
-- Easy Solved: 66/896 (7.37%)
-- Medium Solved: 29/1914 (1.52%)
-- Hard Solved: 8/867 (0.92%)
-- Rank: 1,273,961
-- Acceptance Rate: 62.81%
+- Total Solved: 104/3691 (2.82%)
+- Easy Solved: 67/901 (7.44%)
+- Medium Solved: 29/1920 (1.51%)
+- Hard Solved: 8/870 (0.92%)
+- Rank: 1,275,097
+- Acceptance Rate: 62.87%
 ```
-
-## Hard Problems - 8/867
+## Hard Problems - 8/870
 
 | #    | Title                                                                                                                 | Solution(s)                                    |
 | ---- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
@@ -26,8 +25,7 @@ _Last Updated 9/11/25_
 | 2097 | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)                                | [Go](/hard/2097/main.go)                       |
 | 3307 | [Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | [Go](/hard/3307/main.go)                       |
 | 2322 | [Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)       | [Go](/hard/2322/main.go)                       |
-
-## Medium Problems - 29/1914
+## Medium Problems - 29/1920
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------- |
@@ -60,8 +58,7 @@ _Last Updated 9/11/25_
 | 2563 | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)                                                         | [Go](/medium/2563/main.go) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
 | 3202 | [Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)                      | [Go](/medium/3202/main.go) |
-
-## Easy Problems - 66/896
+## Easy Problems - 67/901
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
 | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
