@@ -14,6 +14,7 @@ _Last Updated 9/23/25_
 - Rank: 1,275,097
 - Acceptance Rate: 62.93%
 ```
+
 ## Hard Problems - 8/870
 
 | #    | Title                                                                                                                 | Solution(s)                                    |
@@ -25,6 +26,7 @@ _Last Updated 9/23/25_
 | 2097 | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)                                | [Go](/hard/2097/main.go)                       |
 | 3307 | [Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | [Go](/hard/3307/main.go)                       |
 | 2322 | [Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)       | [Go](/hard/2322/main.go)                       |
+
 ## Medium Problems - 30/1920
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
@@ -43,6 +45,7 @@ _Last Updated 9/23/25_
 | 50   | [Pow(x,n)](https://leetcode.com/problems/powx-n)                                                                                                       | [TS](/medium/50/50.ts)     |
 | 151  | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)                                                                   | [Go](/medium/151/main.go)  |
 | 165  | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers)                                                                       | [Go](/medium/165/main.go)  |
+| 166  | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal)                                                           | [Go](/medium/166/main.go)  |
 | 176  | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary)                                                                           | [SQL](/medium/176/176.sql) |
 | 204  | [Count Primes](https://leetcode.com/problems/count-primes)                                                                                             | [Go](/medium/204/main.go)  |
 | 238  | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)                                                             | [Go](/medium/238/main.go)  |
@@ -59,6 +62,7 @@ _Last Updated 9/23/25_
 | 2563 | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)                                                         | [Go](/medium/2563/main.go) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
 | 3202 | [Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)                      | [Go](/medium/3202/main.go) |
+
 ## Easy Problems - 68/901
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
