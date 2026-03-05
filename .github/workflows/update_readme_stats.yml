@@ -32,7 +32,7 @@ jobs:
 
                   const username = process.env.LEETCODE_USERNAME;
                   const readmePath = 'README.md';
-                  const apiUrl = `https://leetcode-stats-api.herokuapp.com/${username}`;
+                  const apiUrl = `https://leetcode-stats.tashif.codes/${username}`;
                   const profileUrl = `https://leetcode.com/${username}`;
 
                   async function fetchStatsAndUpdateReadme() {
