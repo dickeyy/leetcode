@@ -1,18 +1,18 @@
-# [Leetcode Solutions - Total: 109](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 110](https://leetcode.com/dickey)
 
 [![wakatime](https://wakatime.com/badge/github/dickeyy/leetcode.svg)](https://wakatime.com/badge/github/dickeyy/leetcode)
 
 ## Stats
 
-_Last Updated 3/11/26_
+_Last Updated 3/12/26_
 
 ```
-- Total Solved: 109/3865 (2.82%)
+- Total Solved: 110/3865 (2.85%)
 - Easy Solved: 70/930 (7.53%)
-- Medium Solved: 31/2022 (1.53%)
+- Medium Solved: 32/2022 (1.58%)
 - Hard Solved: 8/913 (0.88%)
 - Rank: 1,366,716
-- Acceptance Rate: 63.16%
+- Acceptance Rate: 62.91%
 ```
 ## Hard Problems - 8/913
 
@@ -25,7 +25,7 @@ _Last Updated 3/11/26_
 | 2097 | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)                                | [Go](/hard/2097/main.go)                       |
 | 3307 | [Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | [Go](/hard/3307/main.go)                       |
 | 2322 | [Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)       | [Go](/hard/2322/main.go)                       |
-## Medium Problems - 31/2022
+## Medium Problems - 32/2022
 
 | #    | Title                                                                                                                                                  | Solution(s)                |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------- |
