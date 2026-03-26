@@ -40,6 +40,7 @@ _Last Updated 3/19/26_
 | 39   | [Combination Sum](https://leetcode.com/problems/combination-sum)                                                                                       | [Go](/medium/39/main.go)   |
 | 46   | [Permutations](https://leetcode.com/problems/permutations)                                                                                             | [Go](/medium/46/main.go)   |
 | 48   | [Rotate Image](https://leetcode.com/problems/rotate-image)                                                                                             | [Go](/medium/48/main.go)   |
+| 49   | [Group Anagrams](https://leetcode.com/problems/group-anagrams)                                                                                         | [Go](/medium/49/main.go)   |
 | 50   | [Pow(x,n)](https://leetcode.com/problems/powx-n)                                                                                                       | [TS](/medium/50/50.ts)     |
 | 151  | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)                                                                   | [Go](/medium/151/main.go)  |
 | 165  | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers)                                                                       | [Go](/medium/165/main.go)  |
