@@ -1,18 +1,18 @@
-# [Leetcode Solutions - Total: 112](https://leetcode.com/dickey)
+# [Leetcode Solutions - Total: 113](https://leetcode.com/dickey)
 
 [![wakatime](https://wakatime.com/badge/github/dickeyy/leetcode.svg)](https://wakatime.com/badge/github/dickeyy/leetcode)
 
 ## Stats
 
-_Last Updated 3/26/26_
+_Last Updated 3/27/26_
 
 ```
-- Total Solved: 112/3879 (2.89%)
-- Easy Solved: 71/933 (7.61%)
+- Total Solved: 113/3879 (2.91%)
+- Easy Solved: 72/933 (7.72%)
 - Medium Solved: 33/2030 (1.63%)
 - Hard Solved: 8/916 (0.87%)
 - Rank: 1,348,174
-- Acceptance Rate: 63.35%
+- Acceptance Rate: 63.23%
 ```
 ## Hard Problems - 8/916
 
@@ -62,7 +62,7 @@ _Last Updated 3/26/26_
 | 2563 | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs)                                                         | [Go](/medium/2563/main.go) |
 | 2610 | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions)                     | [TS](/medium/2610/2610.ts) |
 | 3202 | [Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)                      | [Go](/medium/3202/main.go) |
-## Easy Problems - 71/933
+## Easy Problems - 72/933
 
 | #     | Title                                                                                                                                                      | Solution(s)                                                                        |
 | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
