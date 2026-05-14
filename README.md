@@ -1,5 +1,6 @@
 # [Leetcode Solutions - Total: 118](https://leetcode.com/dickey)
 
+
 [![wakatime](https://wakatime.com/badge/github/dickeyy/leetcode.svg)](https://wakatime.com/badge/github/dickeyy/leetcode)
 
 ## Stats
